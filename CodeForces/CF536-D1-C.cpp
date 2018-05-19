@@ -1,3 +1,10 @@
+/*
+	- WLOG we can fix R to be a certain value, say 1
+		- Because if person i is the minimum for some (S, R), person i will also be the minimum for (S*k, R*k)
+	- Then the problem becomes to find all i such that S/si+1/ri is minimum for some x>0
+	- Replace S with x and you can use convex hull trick
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

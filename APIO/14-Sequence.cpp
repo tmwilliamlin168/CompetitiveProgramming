@@ -1,5 +1,4 @@
 /*
-	- Tested on https://oj.uz/problem/view/APIO14_sequence
 	- Problem becomes to split array into k+1 parts such that the sum of the products of the pairs of elements from distinct parts is maximized
 	- With complementary counting => maximize sum of the products of all pairs - sum of the products of the pairs that belong in the same parts
 	- Also the same as minimizing the sum of sum[i...j]^2 for all parts

@@ -1,3 +1,9 @@
+/*
+	- The balls at columns 1 and c fall straight down (since there can't be ramps there)
+		- If B_1==0 or B_c==0, then it is impossible
+	- Pair the source and targets so that there are no inversions
+*/
+
 import java.io.*;
 import java.util.*;
 

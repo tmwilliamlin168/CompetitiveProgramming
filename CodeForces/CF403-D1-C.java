@@ -12,7 +12,7 @@
 import java.io.*;
 import java.util.*;
 
-public class MainC {
+public class Main {
 	static final Reader in = new Reader();
 	
 	public static void main(String[] args) {

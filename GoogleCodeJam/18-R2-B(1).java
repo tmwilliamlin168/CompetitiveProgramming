@@ -1,5 +1,5 @@
 /*
-	- There can only be at most sqrt(500)~31 jugglers with the same number of red saws
+	- There can only be at most O(sqrt(n))~31 jugglers with the same number of red saws
 	- If there are x jugglers with y red saws, then there must be <=x jugglers with y+1 red saws
 	- Use these 2 properties and the generous 25 second time limit to search all possible ways
 */

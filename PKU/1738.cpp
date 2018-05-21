@@ -1,5 +1,5 @@
 /*
-	- Uses Knuth's optimization for O(n^2)
+	- Uses Knuth's optimization for O(n^2) (doesn't solve the problem though)
 */
 
 #include <iostream>

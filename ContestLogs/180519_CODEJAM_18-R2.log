@@ -1,0 +1,35 @@
+Contest log for Google Code Jam 2018 Round 2
+00:00:03:3 Reading pA
+00:01:27:4 Thinking pA
+00:05:37:0 Coding pA
+00:06:28:0 Wrong greedy, continue thinking pA
+00:09:14:8 Coding pA
+00:15:47:0 Finished coding pA
+00:16:26:0 WA - didn't output number of used lines
+00:17:35:7 WA 2
+00:19:24:6 Didn't see the problem wanted the minimum number of rows
+00:21:19:9 AC small for pA, probably for large as well
+00:21:21:4 Reading pB
+00:22:45:6 Thinking pB
+00:34:55:4 Seems like knapsack dp?
+00:36:04:2 Starting to code
+00:36:35:6 NVM I realized that my solution is O(n^4)
+00:41:20:5 Maybe I should put precompute all answers and put them in the source code since there are only 500^2 possible inputs and use some search
+00:47:40:6 Actually the search is fast enough for 25 seconds
+00:49:22:7 AC small for pB, probably for large as well
+00:49:28:1 Reading and thinking pC
+00:58:41:6 I think I got the idea, find maximum independent set on a bipartite graph created by 
+00:59:43:3 Wait it's not bipartite
+01:02:46:0 Wait maybe the maximum independent set min(rows, columns) covered by the graph
+01:15:34:7 WA
+01:20:44:4 Ok so min(rows, columns) is not the maximum independent set
+01:29:13:3 Reading pD
+01:35:23:8 Working on brute force for pC
+01:38:44:9 AC pC small only
+01:41:25:9 Thinking & coding small for pD
+01:56:37:9 AC pD small only
+02:00:59:0 Thinking pC big
+02:03:56:7 Wait the maxmimum independent set may be the minimum number of rows and columns to cover all nodes => bipartite matching
+02:09:28:2 Debugging :(
+02:11:56:7 AC pC large?
+02:18:56:5 Relaxing XD

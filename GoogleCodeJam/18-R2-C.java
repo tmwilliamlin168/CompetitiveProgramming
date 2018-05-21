@@ -24,7 +24,6 @@ public class Solution {
 			adj[i] = new ArrayList<Integer>();
 		int tt=in.nextInt();
 		for(int ti=1; ti<=tt; ++ti) {
-			out.print("Case #"+ti+": ");
 			n=in.nextInt();
 			int ans=n*n;
 			for(int i=0; i<n; ++i)
@@ -41,7 +40,7 @@ public class Solution {
 					ans-=mf();
 				}
 			}
-			out.println(ans);
+			out.println("Case #"+ti+": "+ans);
 		}
 		out.close();
 	}

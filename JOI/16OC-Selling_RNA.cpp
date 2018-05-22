@@ -1,16 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
+
 const int mxN1=1e5, mxN2=2e6;
 int n, m, enc[256], ans[mxN1], ft[mxN2+1];
 string ss[mxN1];
 vector<int> pts[mxN2];
- 
+
 struct query {
 	int i, l, r, w;
 };
 vector<query> queries[mxN2+1];
- 
+
 struct trie {
 	int sz=1, c[mxN2][4], dt, st[mxN2], en[mxN2];
 	inline void ins(string &s) {
@@ -35,19 +35,19 @@ struct trie {
 		return u;
 	}
 } t[2];
- 
+
 inline void upd(int i, int x) {
 	for(++i; i<=mxN2; i+=i&-i)
 		ft[i]+=x;
 }
- 
+
 inline int qry(int i) {
 	int r=0;
 	for(; i; i-=i&-i)
 		r+=ft[i];
 	return r;
 }
- 
+
 int main() {
 	ios_base::sync_with_stdio(0);
 	cin.tie(0);

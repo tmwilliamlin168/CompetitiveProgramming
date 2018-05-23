@@ -12,7 +12,7 @@
 using namespace std;
 
 const int mxN=1e6;
-int n, k, v[mxN], c[mxN], a[mxN], qu1[mxN], qh1, qt1, qu2[mxN], qh2, qt2, lmx;
+int n, k, v[mxN], c[mxN], p[mxN], qu1[mxN], qh1, qt1, qu2[mxN], qh2, qt2, lmx;
 double ans, cp=1;
 
 inline void pn(int i) {
@@ -48,12 +48,12 @@ int main() {
 				break;
 			pn(++i2);
 		}
-		a[i1]=lmx;
+		p[i1]=lmx;
 		if(v[qu1[qh1]]>c[qu2[qh2]])
-			a[i1]=max(c[qu2[qh2]], a[i1]);
+			p[i1]=max(c[qu2[qh2]], p[i1]);
 	}
-	sort(a, a+n);
+	sort(p, p+n);
 	for(int i=0; i<=n-k; cp=cp*(n-k-i)/(n-1-i), ++i)
-		ans+=(double)a[i]*cp;
+		ans+=(double)p[i]*cp;
 	cout << fixed << setprecision(9) << ans*k/n;
 }

@@ -12,7 +12,7 @@
 using namespace std;
 
 const int mxN=1e5;
-int n, m, k, a[mxN], b[mxN], ab[mxN], d[mxN], s[mxN], p[mxN], r[mxN], dt=1, tin[mxN], low[mxN];
+int n, m, k, a[mxN], b[mxN], d[mxN], s[mxN], p[mxN], r[mxN], dt=1, tin[mxN], low[mxN];
 bool bg[mxN];
 vector<int> adj1[mxN], adj2[mxN];
 
@@ -34,7 +34,7 @@ inline void join(int x, int y) {
 void dfs1(int u, int p) {
 	tin[u]=low[u]=dt++;
 	for(int e : adj1[u]) {
-		int v=u^ab[e];
+		int v=u^a[e]^b[e];
 		if(!tin[v]) {
 			dfs1(v, e);
 			low[u]=min(low[v], low[u]);
@@ -47,7 +47,7 @@ void dfs1(int u, int p) {
 
 void dfs2(int u, int p) {
 	for(int e : adj2[u]) {
-		int v=u^ab[e];
+		int v=u^a[e]^b[e];
 		if(v==p)
 			continue;
 		d[v]=d[u]+1;
@@ -65,7 +65,6 @@ int main() {
 		p[i]=i;
 	for(int i=0; i<m; ++i) {
 		cin >> a[i] >> b[i], --a[i], --b[i];
-		ab[i]=a[i]^b[i];
 		adj1[a[i]].push_back(i);
 		adj1[b[i]].push_back(i);
 	}
@@ -80,7 +79,6 @@ int main() {
 			continue;
 		a[i]=find(a[i]);
 		b[i]=find(b[i]);
-		ab[i]=a[i]^b[i];
 		adj2[a[i]].push_back(i);
 		adj2[b[i]].push_back(i);
 	}

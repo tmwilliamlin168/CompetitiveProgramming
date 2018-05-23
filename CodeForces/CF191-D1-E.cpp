@@ -1,6 +1,6 @@
 /*
 	- Binary search, implement the function that returns how many subarrays have sum >= x
-	- Fenwick tree to answer how many prefix sums are <= x
+	- Binary indexed tree to answer how many prefix sums are <= x
 */
 
 #include <bits/stdc++.h>

@@ -1,9 +1,9 @@
 /*
 	- Consider when an element at index i is the maximum
 	- You can make that specific element the maximum if you include all intervals containing i
-	- Simple solution: do bitset knapsack for each i => O(qn^2logn/32)
+	- Simple solution: do bitset knapsack dp for each i => O(qn^2logn/32)
 	- We can put the intervals on a segment tree and do a dfs from the root
-	- Doing bitset knapsack from the root to the leaf nodes makes it O(n(n+qlogn)/32)
+	- Doing bitset knapsack dp from the root to the leaf nodes makes it O(n(n+qlogn)/32)
 */
 
 #include <bits/stdc++.h>

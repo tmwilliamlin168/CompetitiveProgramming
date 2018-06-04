@@ -29,7 +29,7 @@ using namespace std;
 #define se second
 
 const int mxN=1e5, mxM=2e5;
-int n, m, q, x[mxN-1], y[mxN-1], lb[mxN-1], ans[mxN], centP[mxN], sz[mxN], rt1, sts=2, bsts, sti[mxN], mlt[mxN];
+int n, m, q, x[mxN-1], y[mxN-1], lb[mxN-1], ans[mxN], centP[mxN], sz[mxN], rt1, sts=2, bsts, sti[mxN], mlt[mxN], dj, ck;
 vector<pii> av[mxN-1];
 vector<int> adj[mxN], cn;
 
@@ -198,7 +198,6 @@ int main() {
 		av[i].push_back({0, 0});
 	}
 	for(int i=1; i<=m; ++i) {
-		int dj;
 		cin >> dj, --dj;
 		if(lb[dj]) {
 			av[dj].push_back({lb[dj], i-1});
@@ -215,7 +214,6 @@ int main() {
 	dfs1(0, -1);
 	cd(0, -2);
 	while(q--) {
-		int ck;
 		cin >> ck, --ck;
 		cout << ans[ck] << "\n";
 	}

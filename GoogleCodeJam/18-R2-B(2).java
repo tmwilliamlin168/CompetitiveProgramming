@@ -25,18 +25,18 @@ public class Solution {
 	}
 	
 	static class Reader {
-	    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	    StringTokenizer st;
-	    String next() {
-	        while(st==null||!st.hasMoreTokens()) {
-	            try {
-	                st = new StringTokenizer(br.readLine());
-	            } catch(Exception e) {}
-	        }
-	        return st.nextToken();
-	    }
-	    int nextInt() {
-	        return Integer.parseInt(next());
-	    }
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		String next() {
+			while(st==null||!st.hasMoreTokens()) {
+				try {
+					st = new StringTokenizer(br.readLine());
+				} catch(Exception e) {}
+			}
+			return st.nextToken();
+		}
+		int nextInt() {
+			return Integer.parseInt(next());
+		}
 	}
 }

@@ -1,3 +1,10 @@
+/*
+	- The pattern can be divided into at most 4 quadrants, where each quadrant has the same color
+	- Brute force the O(rc) quadrant centers and 2^4 color combinations
+	- For each configuration, find the largest connected component in O(rc)
+	- O((rc)^2) total
+*/
+
 import java.io.*;
 import java.util.*;
 

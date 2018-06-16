@@ -36,7 +36,7 @@ int main() {
 			b+=i>>j&1?-1:1;
 			mb=min(b, mb);
 		}
-		for(int j=-mb; j+b<2*n; ++j)
+		for(int j=-mb; j+b<2*n&&j<2*n; ++j)
 			mat1[j+b][j]=min(cc, mat1[j+b][j]);
 	}
 	while(m) {

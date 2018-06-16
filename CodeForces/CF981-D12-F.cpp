@@ -31,7 +31,7 @@ int main() {
 	while(lb<=rb) {
 		int mb=(lb+rb)/2, k=0;
 		for(int i1=0, i2=0; i1<n; k=max(i2-i1, k), ++i1)
-			while(i2-i1+1<=2*n&&b[i2]+mb<a[i1])
+			while(b[i2]+mb<a[i1])
 				++i2;
 		bool ok=1;
 		for(int i=0; i<n&&ok; ++i)

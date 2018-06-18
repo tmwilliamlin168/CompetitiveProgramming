@@ -2,7 +2,6 @@
 	- http://ioinformatics.org/locations/ioi16/contest/IOI2016_analysis.pdf
 */
 
-#include "aliens.h"
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -13,7 +12,7 @@ using namespace std;
 #define se second
 
 const int mxN=1e5;
-int qh, qt, a[mxN], c[mxN];
+int n, m, k, qh, qt, a[mxN], c[mxN];
 ll b[mxN];
 pii ps1[mxN];
 vector<pii> ps2;
@@ -44,9 +43,13 @@ inline pli ddp(ll c) {
 	return dp;
 }
 
-ll take_photos(int n, int m, int k, vector<int> r, vector<int> c) {
+int main() {
+	ios_base::sync_with_stdio(0);
+	cin.tie(0);
+	
+	cin >> n >> m >> k;
 	for(int i=0; i<n; ++i) {
-		ps1[i]={r[i], c[i]};
+		cin >> ps1[i].fi >> ps1[i].se;
 		if(ps1[i].se>ps1[i].fi)
 			swap(ps1[i].se, ps1[i].fi);
 	}
@@ -67,5 +70,5 @@ ll take_photos(int n, int m, int k, vector<int> r, vector<int> c) {
 		} else
 			lb=mb+1;
 	}
-	return ans-lb*k;
+	cout << ans-lb*k;
 }

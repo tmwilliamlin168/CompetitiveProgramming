@@ -13,9 +13,9 @@ using namespace std;
 #define ll long long
 
 const int mxN=3e5;
-int n, m, pi, si[mxN];
+int n, m, pi, c[mxN], si[mxN];
 vector<int> adj[mxN];
-ll c[mxN], yi0[mxN], yi1[mxN];
+ll yi0[mxN], yi1[mxN];
 priority_queue<ll> pc[mxN];
 
 int main() {

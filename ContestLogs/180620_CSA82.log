@@ -1,0 +1,19 @@
+Contest Log for CSAcademy Round #82
+Log started on 2018-06-20 23:05:00.236
+00:02:53:0 AC "Love Story"
+00:08:51:9 AC "Printer"
+00:10:04:7 "City Break" has solves and has an easy idea but it isn't the easiest to implement
+00:18:48:6 AC "City Break"
+00:19:55:3 "Restricted Array" has solves but I have no idea for it
+00:22:27:1 Ok, the first part of the problem doesn't seem too hard
+00:27:21:0 So the entire thing can be done with DSU + some weird math
+00:37:08:6 AC "Restricted Array", turns out DSU wasn't used at all but I still have it in my code :P
+00:48:05:3 If there were no restrictions on k, the problem can be solved with a greedy algorithm like Prim
+00:51:23:4 Aliens trick? It kind of makes sense that the function would be convex
+00:51:55:3 Screw this I'm just going to try it
+01:03:37:2 WA on the first non-sample test :(
+01:04:30:0 I really don't know where it could go wrong
+01:12:04:0 Wait is there a simple DP solution?
+01:21:44:8 WA
+01:23:07:7 NVM what was I thinking
+Turns out the aliens trick does work, but my solution finds a solution with exactly k fountains. Simple change to make it work.

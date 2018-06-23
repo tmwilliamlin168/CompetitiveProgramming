@@ -1,0 +1,40 @@
+Contest log for IOITC #1 Replay
+Log started on 2018-06-22 21:30:00.172
+00:03:50:2 Finished reading all problems
+00:03:56:7 Thinking of "Circular Intervals"
+00:05:00:9 Seems similar to CF problem that I did before
+00:07:28:7 Gonna write and think as I go along
+00:14:09:6 Passes sample, gonna submit
+00:14:55:2 Full of WA's
+00:17:16:6 Oops forgot to check for the distance between markers 0 and n-1
+00:18:41:4 Still WA but got a few AC's
+00:23:14:5 Rip I confused n&m somewhere and I read the input wrong
+00:24:00:1 Accidentally flipped an inequality
+00:24:20:3 Submitted again
+00:24:45:6 Thinking of "CyclesAndColorings"
+00:25:12:4 AC
+00:33:43:3 Consider spanning tree?
+00:37:51:9 Thinking about "K Perfect Matchings"
+00:53:49:0 Really random idea - use hashes to check if 2 sets of edges are equal, and you can change a perfect matching to another by finding an alternating cycle
+00:57:46:9 Started writing
+01:44:14:8 Finished writing
+01:56:05:2 Passes samples, submitting
+01:57:26:9 All TLE
+01:59:41:4 Fixed some bugs, hopefully it will be better
+02:00:30:6 Oops I forgot to check if a state was already visited in DFS
+02:03:12:6 A few WA's
+02:03:20:8 The execution times are surprisingly really good
+02:17:21:7 Stress testing
+02:51:32:4 Gonna disable one optimziation for now to make it more correct
+02:57:11:1 Almost all AC now, but maximum execution time went to 0.42s
+03:12:13:0 When in doubt, random_shuffle adjacency list during DFS?
+03:17:29:7 One less WA for subtask 2
+03:20:48:1 Repeated DFS enough time to get subtask 2, should i go for subtask 3?
+03:26:42:9 I don't see any more optimizations that I could use for subtask 3, except for the one that I just disabled
+03:26:49:6 I'll just try "CyclesAndColorings"
+03:26:54:4 Maybe articulation points?
+03:42:01:1 I'm too tired, I'd rather just sleep
+My idea for "K Perfect Matchings" was right, I had a small typo (&& instead of ||) :(
+Although hashes work for "K Perfect Matchings", they're unnecessary
+My observation for "CycleAndColorings" which was that when you remove a spanning tree, all odd cycles are good cycles is correct
+I thought that not all good cycles could be found this way, and I didn't realize that if you couldn't find any odd cycles then you get a bipartite graph, so you can do 4-coloring easily :(

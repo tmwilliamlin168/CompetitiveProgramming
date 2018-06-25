@@ -1,0 +1,27 @@
+Contest log for Codeforces Round #491 (Div. 2)
+Log started on 2018-06-23 23:34:57.119
+00:07:07:8 Reading pC
+00:12:55:0 Constraints make it look like binary search, but is it really?
+00:13:12:4 Reading pD
+00:14:22:6 AC pC pretests
+00:14:48:2 Obvious DP, greedy might work but I don't want to accidentally forget edge cases and stuff
+00:19:54:2 Finished coding, has bugs on sample
+00:21:13:7 Passes samples, submitting
+00:21:27:6 Reading pE
+00:22:19:7 AC pD pretests
+00:24:27:5 Doesn't seem that hard for a pE?
+00:28:57:5 Passes samples, submitting
+00:29:07:2 AC pE pretests
+00:29:08:9 Reading pF
+00:31:17:7 Only 9 characters max in the expression, would brute force search work?
+01:06:22:4 My brute force search isn't really efficient now
+01:23:07:4 Screw this im restarting with better idea (it's casework but at least it's faster)
+01:45:09:2 Submitting
+01:45:40:7 How did I get RTE?
+01:46:52:0 Found a test that fails
+01:50:32:1 Wow, didn't know c++ gives RTE when you overflow ints
+01:50:38:2 WA 9
+01:50:39:6 WTF
+01:58:40:2 5th submission, still WA
+Thought maximum number of digits was 9 instead of 10
+I also forgot a^b*c^d case

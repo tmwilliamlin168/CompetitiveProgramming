@@ -29,8 +29,8 @@ void dfs1(int u, int p, int d) {
 }
 
 inline int ds(int u, int v) {
-    if(u==v)
-        return 0;
+	if(u==v)
+		return 0;
 	if((u=fo[u])>(v=fo[v]))
 		swap(u, v);
 	int k=lg2(v-u);
@@ -39,13 +39,13 @@ inline int ds(int u, int v) {
 
 void dfs2(int u, int p) {
 	sz[u]=1;
-    d2[u]=0;
+	d2[u]=0;
 	for(int v : adj[u]) {
 		if(v==p||ctp[v]!=-1)
 			continue;
 		dfs2(v, u);
 		sz[u]+=sz[v];
-        d2[u]=max(d2[v]+1, d2[u]);
+		d2[u]=max(d2[v]+1, d2[u]);
 	}
 }
  
@@ -60,7 +60,7 @@ void cd(int u, int p) {
 	int c=dfs3(u, -1, sz[u]);
 	fts[c+n].resize(d2[u]+3);
 	dfs2(c, -1);
-    fts[c].resize(d2[c]+2);
+	fts[c].resize(d2[c]+2);
 	ctp[c]=p;
 	for(int v : adj[c])
 		if(ctp[v]==-1)
@@ -85,13 +85,13 @@ int main() {
 		cin >> a[i];
 	for(int i=0; i<n-1; ++i) {
 		int u, v;
-        cin >> u >> v, --u, --v;
+		cin >> u >> v, --u, --v;
 		adj[u].push_back(v);
 		adj[v].push_back(u);
 	}
 	cin >> q;
 	for(int i=0; i<q; ++i)
-        cin >> qu[i] >> qd[i] >> qk[i], --qu[i];
+		cin >> qu[i] >> qd[i] >> qk[i], --qu[i];
 	dfs1(0, -1, 0);
 	for(int i=1; i<=lg2(2*n-1); ++i)
 		for(int j=0; j<2*n-(1<<i); ++j)
@@ -117,8 +117,8 @@ int main() {
 				++ch;
 			}
 		}
-        if(!ch)
-            break;
+		if(!ch)
+			break;
 		for(int i=0; i<n&&ch; ++i) {
 			for(int u=p[i]; u!=-2; u=ctp[u]) {
 				upd(u, ds(u, p[i]));
@@ -133,11 +133,11 @@ int main() {
 					qr[j]=i-1;
 				else
 					ql[j]=i+1;
-                --ch;
+				--ch;
 			}
 			tc[i].clear();
 		}
 	}
 	for(int i=0; i<q; ++i)
-        cout << (ql[i]>=n?-1:a[p[ql[i]]]) << "\n";
+		cout << (ql[i]>=n?-1:a[p[ql[i]]]) << "\n";
 }

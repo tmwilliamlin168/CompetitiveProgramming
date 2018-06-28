@@ -39,14 +39,10 @@ struct node {
 } st[2*18*(2*mxN+mxM/2)+2*mxM]; //2 nodes per layer * logn=18 layers * total updates + max nodes in a segtree
 
 inline void psh(int &sti, int v=0, bool x1=0, int x2=0) {
-	int lsti=sti;
 	if(!sti||st[sti].v!=v) {
+		st[sts]=st[sti];
+		st[sts].v=v;
 		sti=sts++;
-		st[sti].v=v;
-		if(lsti) {
-			st[sti].lc=st[lsti].lc, st[sti].rc=st[lsti].rc;
-			st[sti].lz1=st[lsti].lz1, st[sti].lz2=st[lsti].lz2;
-		}
 	}
 	if(x1)
 		st[sti].lz1=1, st[sti].lz2=0;

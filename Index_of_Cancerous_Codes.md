@@ -25,6 +25,7 @@ Convex Hull Trick
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Sequence.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0536-D1-C.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/mining.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IOI/16-Aliens.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/PKU/3709.cpp
 * Binary search
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0631-D2-E.cpp
@@ -39,7 +40,7 @@ Lowest Common Ancestor
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(1).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
 
-Manachar
+Manacher
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp
 
 Minimum cost flow

@@ -37,6 +37,7 @@ Fast Fourier Transform
 Lowest Common Ancestor
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1000-D12-G.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(1).cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
 
 Manachar
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp

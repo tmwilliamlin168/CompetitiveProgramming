@@ -17,6 +17,7 @@ Bridge Tree
 Centroid Decomposition
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(1).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/13OC-Synchronization(1).cpp
 
 Convex Hull Trick
 * Pointer walk
@@ -24,6 +25,7 @@ Convex Hull Trick
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Sequence.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0536-D1-C.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/mining.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/PKU/3709.cpp
 * Binary search
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0631-D2-E.cpp
 * Dynamic
@@ -55,6 +57,8 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0981-D12-G.java
 * Point add updates, range sum queries, persistent
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
+* Range set and add updates, point queries, persistent xor mergeable
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/13OC-Synchronization(1).cpp
 
 Strongly Connected Components
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/09-ATM.cpp

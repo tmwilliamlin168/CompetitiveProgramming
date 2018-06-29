@@ -1,6 +1,3 @@
-title
-* a
-	* b
-	* c
-		* d
-	* e
+SCC
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/09-ATM.cpp
+

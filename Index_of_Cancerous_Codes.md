@@ -1,5 +1,6 @@
 Aliens Trick
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CSAcademy/82-E.java
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IOI/16-Aliens.cpp
 
 Biconnected Components
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/18-Duathlon(1).cpp

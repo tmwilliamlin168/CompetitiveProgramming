@@ -2,7 +2,7 @@
 	- If m < n
 		- Use a permutation composition segment tree
 		- O(qmlogn), where m < ~450
-		- Permutation composition is inversible, so only prefix of permutations were required
+		- Permutation composition is invertible, so only prefix of permutations were required
 	- Else
 		- Calculate answer in O(m) for each of the possible O(n^2) queries
 		- O(n^2m), where n < ~450 and n*m < 2e5

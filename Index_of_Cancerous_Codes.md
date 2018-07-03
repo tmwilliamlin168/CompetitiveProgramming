@@ -54,6 +54,8 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/12-Dispatching.cpp
 * Range add updates, range max queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/AtCoder/079-ARC-F.java
+* Range permutation composition
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/DOCSDEL.cpp
 * Max subarry sum in subarray queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0150-D1-C.java
 * Add interval updates, length of union of intervals queries

@@ -6,7 +6,11 @@
 		- Deque optimization
 	- We just need to find k1 and k2 for each (i, j)
 	- For each of the q rectangles, we can do max updates for O(log^2n) each
-		- Set the x and y for each cell
+		- Set the k1 and k2 for each cell in the rectangle to the lower-right corner
+		- If extra cells towards the right were set with k1, it wouldn't affect anything
+			- Same if extra cells towards the bottom were set with k2
+		- Updates can become 1D with O(logn) each, then apply prefix maximums
+	- O(nm+q(logn+logm))
 */
 
 #include <bits/stdc++.h>

@@ -1,3 +1,8 @@
+/*
+	- There are at most n distinct palindromic substrings in a string, all of which can be found with manacher
+	- Finding how many times a substring appears in a string is a classical suffix array + lcp problem
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

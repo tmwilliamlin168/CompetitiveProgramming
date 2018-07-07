@@ -1,0 +1,60 @@
+Contest log for June Lunchtime 2018
+Log started on 2018-06-30 22:00:04.722
+00:01:44:8 Read "Sort the Leaves", seems possible
+00:03:40:0 Seems similar to APIO 2007 Mobiles
+00:04:40:2 Starting to code
+00:09:44:2 Finished coding
+00:09:51:8 Sample bugs
+00:11:59:8 Stupid typo (-1 instead of -2), submitting
+00:12:14:2 "Summary Power" has solves, reading it
+00:12:50:9 Finished reading
+00:12:58:5 AC "Sort the Leaves"
+00:13:28:3 Simple sum of range sums?
+00:13:55:3 Coding it
+00:16:41:8 Sample bugs
+00:18:19:5 Submitting, stupid typo (!= instead of ==)
+00:18:29:5 Reading "Permutation Composition Queries"
+00:18:39:5 AC "Summary Power"
+00:20:12:7 This seems hard
+00:26:51:1 Square root decomposition?
+00:42:00:1 Doesn't seem pretty to write
+00:47:35:6 Permutation segment tree
+00:57:08:0 Finished coding
+00:57:50:8 Amazingly, no sample bugs, submitting
+00:58:06:6 Reading "Unusual Sorting"
+00:58:47:2 Ooh AC "Permutation Composition Queries"
+00:59:27:5 So hard
+00:59:31:8 Reading "Graph on a Table"
+01:01:23:4 So hard too
+01:04:14:6 DP can find longest path
+01:07:16:5 It can also find number of longest paths, trivial O(n^3)
+01:09:03:9 Wait no O(n^3) is not that trivial
+01:09:08:3 Gonna think of "Unusual Sorting"
+01:11:38:2 Writing subtask 1 for "Unusual Sorting"
+01:16:20:4 Submitting "Unusual Sorting" subtask 1
+01:18:15:5 AC "Unusual Sorting" subtask 1
+01:18:19:3 Thinking "Graph on a Table" subtask 2
+01:27:15:9 There seems to be a limited number of states that a cell could transition from, making it O(n^3)
+01:29:11:1 Gonna write it
+01:41:36:9 Finished, submitting
+01:42:06:1 AC "Graph on a Table" subtasks 1&2
+01:42:24:7 1 hour left, don't know what to do
+01:45:49:1 "Unusual Sorting" subtask 2 might be doable?
+01:49:26:5 Have some ideas, gonna write it
+01:56:06:3 Finished coding, submitting
+01:57:22:3 WA
+02:00:11:6 Gonna stress test
+02:06:07:7 Hmm stress testing doesnt really help
+02:09:04:5 Sht forgot to reset stuff between multiple tests!!!
+02:10:22:7 AC "Unusual Sorting" subtasks 1&2
+02:11:24:3 Seems like a meet in the middle problem
+02:32:09:1 Finished coding
+02:32:38:2 No sample bugs :O
+02:32:42:8 Submitted
+02:33:07:0 TLE?
+02:34:57:4 Gonna submit a bunch to try to find out what's causing the TLE
+02:36:14:6 Fk I'm stupid, if the vector is empty then there is no need to branch further :(
+02:36:55:7 Submitted
+02:37:57:7 AC "Unusual Sorting"
+02:42:45:0 Hmm I think I have some ideaa for the last one but definitely can't implement them fast enough
+Oops, permutation composition is inversible, so I only needed to calculate prefix permutations and their inverses instead of using a segtree

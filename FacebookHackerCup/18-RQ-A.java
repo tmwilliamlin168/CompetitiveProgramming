@@ -1,3 +1,8 @@
+/*
+	- Notice that we can take v mod n and the answer will be the same
+	- Brute force the rest
+*/
+
 import java.io.*;
 import java.util.*;
 

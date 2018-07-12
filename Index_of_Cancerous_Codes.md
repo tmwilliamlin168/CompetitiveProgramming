@@ -50,7 +50,7 @@ Mo
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1000-D12-F.cpp
 
 Segment Tree
-* Delete max in range updates, range sum & max queries
+* Point set updates, range sum queries, range max (with index) queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/12-Dispatching.cpp
 * Range add updates, range max queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/AtCoder/079-ARC-F.java

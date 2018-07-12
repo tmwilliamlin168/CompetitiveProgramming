@@ -1,11 +1,10 @@
-/*
-	- This is an O(nlogn) solution, unfortunately much more complicated than O(nlog^2n) ones :(
-*/
-
 #include <bits/stdc++.h>
 using namespace std;
 
 #define ll long long
+#define pii pair<int, int>
+#define fi first
+#define se second
 
 const int mxN=1e5;
 int n, st[mxN], ist[mxN], en[mxN], dt;
@@ -14,7 +13,8 @@ vector<int> adj[mxN];
 
 struct node {
 	ll s1;
-	int s2, m1, m2;
+	int s2;
+	pii m;
 } sg[1<<18];
 
 void dfs1(int u) {
@@ -25,9 +25,8 @@ void dfs1(int u) {
 }
 
 inline void mrg(node &lc, node &rc, node &u) {
-	u.s1=lc.s1+rc.s1;
-	u.s2=lc.s2+rc.s2;
-	u.m1=max(lc.m1, rc.m1);
+	u.s1=lc.s1+rc.s1, u.s2=lc.s2+rc.s2;
+	u.m=max(lc.m, rc.m);
 }
 
 void bld(int i=1, int l=0, int r=n-1) {
@@ -37,39 +36,23 @@ void bld(int i=1, int l=0, int r=n-1) {
 		bld(2*i+1, m+1, r);
 		mrg(sg[2*i], sg[2*i+1], sg[i]);
 	} else {
-		sg[i].s1=sg[i].m1=c[ist[l]];
-		sg[i].s2=1;
+		sg[i].s1=c[ist[l]], sg[i].s2=1;
+		sg[i].m={c[ist[l]], l};
 	}
 }
 
-void dmx1(int l1, int r1, int i=1, int l2=0, int r2=n-1) {
-	if(l1<=l2&&r2<=r1) {
-		sg[i].m2=sg[i].m1;
-		return;
+void upd(int l1, int x, int i=1, int l2=0, int r2=n-1) {
+	if(l2<r2) {
+		int m2=(l2+r2)/2;
+		if(l1<=m2)
+			upd(l1, x, 2*i, l2, m2);
+		else
+			upd(l1, x, 2*i+1, m2+1, r2);
+		mrg(sg[2*i], sg[2*i+1], sg[i]);
+	} else {
+		sg[i].s1=sg[i].s2=x;
+		sg[i].m.fi=x;
 	}
-	int m=(l2+r2)/2;
-	if(l1<=m)
-		dmx1(l1, r1, 2*i, l2, m);
-	else
-		sg[2*i].m2=0;
-	if(m<r1)
-		dmx1(l1, r1, 2*i+1, m+1, r2);
-	else
-		sg[2*i+1].m2=0;
-	sg[i].m2=max(sg[2*i].m2, sg[2*i+1].m2);
-}
-
-void dmx2(int l1, int r1, int i=1, int l2=0, int r2=n-1) {
-	if(l2==r2) {
-		sg[i].s1=sg[i].s2=sg[i].m1=0;
-		return;
-	}
-	int m=(l2+r2)/2;
-	if(l1<=l2&&r2<=r1?sg[2*i].m1>sg[2*i+1].m1:sg[2*i].m2>sg[2*i+1].m2)
-		dmx2(l1, r1, 2*i, l2, m);
-	else
-		dmx2(l1, r1, 2*i+1, m+1, r2);
-	mrg(sg[2*i], sg[2*i+1], sg[i]);
 }
 
 node qry(int l1, int r1, int i=1, int l2=0, int r2=n-1) {
@@ -87,9 +70,12 @@ node qry(int l1, int r1, int i=1, int l2=0, int r2=n-1) {
 void dfs2(int u) {
 	for(int v : adj[u])
 		dfs2(v);
-	while(qry(st[u], en[u]-1).s1>m)
-		dmx1(st[u], en[u]-1), dmx2(st[u], en[u]-1);
-	ans=max(l[u]*qry(st[u], en[u]-1).s2, ans);
+	node a=qry(st[u], en[u]-1);
+	while(a.s1>m) {
+		upd(a.m.se, 0);
+		a=qry(st[u], en[u]-1);
+	}
+	ans=max(l[u]*a.s2, ans);
 }
 
 int main() {

@@ -1,0 +1,33 @@
+Contest log for Educational Codeforces Round 47
+Log started on 2018-07-14 22:34:45.434
+00:08:07:8 Hopefully pB passes
+00:08:11:5 WA 4
+00:19:14:7 Found bug, I had wrong greedy
+00:19:18:6 Hopefully passes
+00:19:27:7 Reading pC
+00:26:59:2 Submitting pC
+00:27:05:3 Reading pD
+00:31:52:2 Could I just use brute for pD?
+00:35:27:4 Testing maximum runtime with custom invocation
+00:35:52:0 Submitting
+00:35:54:9 WA 9
+00:36:07:3 Oops, I didn't see that the create graph had to be connected
+00:37:11:8 AC?
+00:38:14:8 Read pF
+00:41:10:3 Read pE
+00:43:29:0 Found formulas for pE?
+00:45:10:5 Starting to code
+00:48:21:8 Submitting pE
+00:48:58:5 Reading pG
+00:53:39:3 pG feels like some sort of max flow
+01:14:36:4 Idea for pF?
+01:34:11:7 Submitting pF
+01:34:43:3 Test 60
+01:34:48:3 Looks like I don't need unordered_map for performance
+01:36:56:2 Oh wait only 2^6 types of indices for pG, so max flow is kind of feasible
+01:47:49:3 Praying that the constant factor will be low
+01:50:37:0 Finished coding
+01:51:47:7 Passes samples, submitting
+01:53:17:2 Fk TLE
+RIP max flow passes with a bit more optimizations, but the best solutions were simpler :(
+pC ended up getting hacked, because of precision issues

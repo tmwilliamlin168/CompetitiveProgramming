@@ -32,6 +32,9 @@ Convex Hull Trick
 * Dynamic
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CEOI/17-Building.cpp
 
+Divide and Conquer Optimization
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/guardians-lunatics-ioi14.cpp
+
 Fast Fourier Transform
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0993-D1-E.cpp
 

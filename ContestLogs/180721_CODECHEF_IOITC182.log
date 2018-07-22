@@ -1,0 +1,46 @@
+Contest log for IOITC #2 Replay
+Log started on 2018-07-21 21:29:16.899
+00:00:11:1 Reading "Exact Walks"
+00:01:45:7 Reading "Coin Denominations"
+00:03:10:1 "Coin Denominations" seems like an obvious matrix exponentiation problem
+00:03:23:4 Reading "Changing Numbers"
+00:03:56:4 Starting on "Coin Denominations"
+00:07:46:5 Starting to code
+00:09:12:3 Wtf it looks like long long isn't enough
+00:27:41:8 Oops I just realized that I was being very dumb, matrix exponentiation is too slow
+00:34:37:3 Maybe I should use the stupid linear interpolation method?
+00:49:56:4 Submitted
+00:52:40:8 WA
+00:54:37:8 2 more WAs
+00:54:57:4 Stupid typo, forgot to take modulo, and forgot to print -1 when impossible
+00:56:17:8 AC "Coin Denominations"
+00:56:57:3 More people solved "Changing Numbers" so far
+00:57:20:0 Create a bipartite graph for "Changing Numbers"?
+01:03:00:5 Submitting subtask 1 for change
+01:03:57:2 WA, I just realized that an operation changes numbers in both arrays, not just one
+01:06:00:7 Hopefully not WA again
+01:08:03:1 WA and TLE
+01:08:31:4 Forgot to reset adjacency list between test cases
+01:09:32:7 AC "Changing Numbers" subtask 1
+01:09:49:8 Subtask 2 just looks like the product of (n-1)! * (number of spanning trees)
+01:15:23:3 Idk how to do the second part of that
+01:18:32:2 Graph has <=n edges
+01:32:53:1 Wait it's not spanning trees, it's just simple combinatorics :/
+01:46:07:0 Submitting
+01:47:06:2 AC "Changing Numbers"
+01:47:21:5 Hmm subtask 2 of "Exact Walks" seems interesting
+01:48:28:6 May have idea for the bipartite subtask
+01:48:45:0 Nvm
+01:53:01:8 I misread problem statement again, bipartite case is actually ez
+01:54:20:5 AC "Exact Walks" subtask 2
+01:57:16:7 Lol you only have to assign 1 or 2 to a[i]
+02:12:19:3 AC "Exact Walks" subtask 1
+02:29:01:5 I'm just going to try random
+02:37:44:9 Submitted random
+02:38:39:3 WA
+02:40:10:2 Resubmitting
+02:45:42:2 WA and TLE
+02:55:04:9 Find a node to isolate as root of the condensed dag?
+03:03:13:9 Hmm RTE but AC for the rest
+03:03:52:3 Oops typo n -> 1<<n
+03:05:04:9 AC "Exact Walks"

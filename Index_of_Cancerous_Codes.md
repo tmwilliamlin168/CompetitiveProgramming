@@ -57,6 +57,8 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/12-Dispatching.cpp
 * Range add updates, range max queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/AtCoder/079-ARC-F.java
+* Point set updates, range hash queries, persistent
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CSAcademy/84-G.cpp
 * Range permutation composition
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/DOCSDEL.cpp
 * Range max updates, iterative

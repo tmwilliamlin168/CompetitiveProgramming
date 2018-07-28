@@ -1,3 +1,6 @@
+2D point add updates, range sum queries
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1010-D1-E.cpp
+
 Aliens Trick
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CSAcademy/82-E.java
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IOI/16-Aliens.cpp

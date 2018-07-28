@@ -1,3 +1,7 @@
+/*
+	- The query rectangles must have both sides >= n/2
+*/
+
 #include "treasure.h"
 #include <bits/stdc++.h>
 using namespace std;

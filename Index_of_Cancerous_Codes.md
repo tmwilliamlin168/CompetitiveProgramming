@@ -49,11 +49,14 @@ Lowest Common Ancestor
 Manacher
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp
 
-Minimum cost flow
+Minimum Cost Flow
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/cargo-delivery.cpp
 
-Mo
+Mo's Algorithm
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1000-D12-F.cpp
+
+Prefix Function
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/MKSTR.cpp
 
 Segment Tree
 * Point set updates, range sum queries, range max queries

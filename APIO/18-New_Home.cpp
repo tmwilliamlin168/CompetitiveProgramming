@@ -39,7 +39,7 @@ inline void solve() {
 	}
 	sort(es2, es2+e2i);
 	for(int i1=0, i2=0; i1<q; ++i1) {
-		while(es2[i2][0]<=qs[i1][0]) {
+		while(i2<e2i&&es2[i2][0]<=qs[i1][0]) {
 			for(int l=es2[i2][2]+2*n+1, r=es2[i2][3]+2*n+1; l<r; ++l/=2, r/=2) {
 				if(l&1)
 					st[l]=max(es2[i2][1], st[l]);

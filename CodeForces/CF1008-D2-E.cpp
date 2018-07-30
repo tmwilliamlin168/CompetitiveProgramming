@@ -1,3 +1,7 @@
+/*
+	- log^2 worst case but who cares
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

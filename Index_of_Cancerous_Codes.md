@@ -38,6 +38,9 @@ Convex Hull Trick
 Divide and Conquer Optimization
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/guardians-lunatics-ioi14.cpp
 
+Euler Paths
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1012-D1-E.cpp
+
 Fast Fourier Transform
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0993-D1-E.cpp
 
@@ -61,7 +64,7 @@ Prefix Function
 Segment Tree
 * Point set updates, range sum queries, range max queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/12-Dispatching.cpp
-* Range max updates, point queries
+* Range max updates, point queries, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/18-New_Home.cpp
 * Range add updates, range max queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/AtCoder/079-ARC-F.java

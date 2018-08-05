@@ -80,6 +80,8 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0258-D1-E.cpp
 * Range multiply and add updates, range sum queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0981-D12-G.java
+* Range add updates, range min queries
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/FacebookHackerCup/18-R2-D.java
 * Point add updates, range sum queries, persistent
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
 * Range set and add updates, point queries, persistent xor mergeable

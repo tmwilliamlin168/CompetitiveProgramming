@@ -96,3 +96,6 @@ Strongly Connected Components
 
 Suffix Array
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp
+
+Top Tree
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/RIVER.cpp

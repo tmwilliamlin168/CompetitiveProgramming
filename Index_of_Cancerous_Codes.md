@@ -13,8 +13,9 @@ Bipartite Matching
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/KPERFMAT.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/GoogleCodeJam/18-R2-C.java
 
-Bridge Tree
+Bridges
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CEOI/17-OneWay.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/LONCYC.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1000-D12-E.cpp
 
 Centroid Decomposition

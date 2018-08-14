@@ -72,6 +72,8 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CSAcademy/84-G.cpp
 * Range permutation composition
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/DOCSDEL.cpp
+* Point max updates, range max queries, iterative
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/KCOMPRES.cpp
 * Range max updates, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/TBGRAPH.cpp
 * Max subarry sum in subarray queries

@@ -90,6 +90,7 @@ Segment Tree
 
 Sparse Table
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1000-D12-G.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1023-D12-D.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(1).cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
 

@@ -46,9 +46,12 @@ Fast Fourier Transform
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0993-D1-E.cpp
 
 Lowest Common Ancestor
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1000-D12-G.cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(1).cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
+* Binary Lifting
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1023-D12-F(2).cpp
+* Sparse Table
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1000-D12-G.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(1).cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
 
 Manacher
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp

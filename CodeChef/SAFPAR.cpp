@@ -1,3 +1,7 @@
+/*
+	- http://codeforces.com/blog/entry/60982/#comment-454544
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

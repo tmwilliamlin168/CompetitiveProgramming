@@ -10,7 +10,7 @@ Biconnected Components
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/18-Duathlon(2).cpp
 
 Binary Lifting
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1023-D12-F(2).cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1023-D12-F(2).cpp
 
 Bipartite Matching
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/KPERFMAT.cpp
@@ -91,10 +91,10 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/17-Port_Facility.cpp
 
 Sparse Table
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1000-D12-G.cpp
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1023-D12-D.cpp
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(1).cpp
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1000-D12-G.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1023-D12-D.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(1).cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
 
 Strongly Connected Components
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/09-ATM.cpp

@@ -48,6 +48,9 @@ Euler Paths
 Fast Fourier Transform
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0993-D1-E.cpp
 
+Gaussian Elimination
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0832-D2-E.cpp
+
 Manacher
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp
 

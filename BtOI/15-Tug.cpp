@@ -1,3 +1,12 @@
+/*
+	- If a spot has 0 contestants who can use it, the answer is no
+	- If a spot has 1 contestant, that contestant has to be assigned to that spot
+	- If all spots left have at least 2 contestants, we can prove that all spots have exactly 2 contestants
+	- When you view the spots as nodes and contestants as edges, the graph is just composed of cycles
+	- Each cycle has 2 possibilities
+	- We can use bitset for the knapsack dp
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

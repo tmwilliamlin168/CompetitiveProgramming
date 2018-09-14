@@ -87,6 +87,8 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0258-D1-E.cpp
 * Range multiply and add updates, range sum queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0981-D12-G.java
+* Point min updates, range min queries, iterative
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1037-D12-H.cpp
 * Range add updates, range min queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/FacebookHackerCup/18-R2-D.java
 * Range add updates, range max queries, find all positive indicies
@@ -109,8 +111,11 @@ Strongly Connected Components
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/09-ATM.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0403-D1-C.java
 
-Suffix Array
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp
+Suffix
+* Array
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp
+* Tree
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1037-D12-H.cpp
 
 Top Tree
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/RIVER.cpp

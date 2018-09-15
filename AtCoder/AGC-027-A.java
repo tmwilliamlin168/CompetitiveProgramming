@@ -3,7 +3,6 @@ import java.util.*;
  
 public class Main {
 	static final Reader in = new Reader();
-	static final PrintWriter out = new PrintWriter(System.out);
 	
 	public static void main(String[] args) {
 		int n=in.nextInt(), x=in.nextInt();
@@ -18,8 +17,7 @@ public class Main {
 				++ans;
 			}
 		}
-		out.println(x>0?Math.min(ans, n-1):ans);
-		out.close();
+		System.out.println(x>0?Math.min(ans, n-1):ans);
 	}
 	
 	static class Reader {

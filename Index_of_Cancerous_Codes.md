@@ -72,7 +72,7 @@ Segment Tree
 * Range max updates, point queries, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/18-New_Home.cpp
 * Range add updates, range max queries
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/AtCoder/067-ARC-F.java
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/AtCoder/ARC-067-F.java
 * Point set updates, range hash queries, persistent
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CSAcademy/84-G.cpp
 * Range permutation composition

@@ -89,6 +89,8 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0981-D12-G.java
 * Point min updates, range min queries, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1037-D12-H.cpp
+* Range set updates, range max queries, iterative
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1042-D2-F.cpp
 * Range add updates, range min queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/FacebookHackerCup/18-R2-D.java
 * Range add updates, range max queries, find all positive indicies

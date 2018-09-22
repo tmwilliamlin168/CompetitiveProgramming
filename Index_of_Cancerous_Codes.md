@@ -121,3 +121,6 @@ Suffix
 
 Top Tree
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/RIVER.cpp
+
+Z Function
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1051-D12-E.cpp

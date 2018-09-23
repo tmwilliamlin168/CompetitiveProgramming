@@ -84,7 +84,7 @@ const int mxN=2e5;
 int n, x, ps[mxN+1];
 
 int main() {
-    ios_base::sync_with_stdio(0);
+	ios_base::sync_with_stdio(0);
 	cin.tie(0);
 	
 	cin >> n >> x;

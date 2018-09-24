@@ -10,6 +10,7 @@ Biconnected Components
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/18-Duathlon(2).cpp
 
 Binary Lifting
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/UPDOTR.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1023-D12-F(2).cpp
 
 Bipartite Matching

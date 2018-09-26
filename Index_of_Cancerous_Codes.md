@@ -101,8 +101,10 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
 * Range set and add updates, point queries, persistent xor mergeable
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/13OC-Synchronization(1).cpp
+* Point set updates, maximum subarray sum queries
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/17OC-Bulldozer.cpp
 * Point set updates, range max queries, iterative
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/17-Port_Facility.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/17SC-Port_Facility.cpp
 
 Sparse Table
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp

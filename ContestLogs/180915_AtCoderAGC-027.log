@@ -1,0 +1,29 @@
+Contest log for AtCoder Grand Contest 027
+Log started on 2018-09-15 20:02:11.147
+00:00:01:9 Submitted pA
+00:00:03:0 Reading pB
+00:14:10:8 Submitted pB
+00:14:20:6 Reading pC
+00:15:12:9 WA on the last 2 tests
+00:16:43:2 Using __int128
+00:21:28:7 Submitted
+00:22:00:8 WTF CE
+00:22:20:9 WA
+00:24:10:1 Gorget it I'm using BigIntegers
+00:26:29:7 Submitting
+00:27:09:5 AC pB
+00:29:39:6 pC seems sketchy
+00:38:25:2 Topological sort?
+00:44:04:3 Submitting
+00:44:36:2 Reading pD
+00:45:17:7 AC pC
+00:45:29:5 Reading pE
+00:46:51:0 Trying small cases for pD
+00:52:02:2 Reading pF
+00:59:37:8 Idea for pD?
+01:01:41:3 Sketchy sol for pD
+01:11:30:5 Sample WA
+01:14:02:5 Numbers are too big :(
+01:14:21:4 Miscalculated the magnitude of my numbers :(
+01:14:22:5 :(
+01:41:09:5 Give up XD

@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
- 
+
 public class Main {
 	static final Reader in = new Reader();
 	static final PrintWriter out = new PrintWriter(System.out);

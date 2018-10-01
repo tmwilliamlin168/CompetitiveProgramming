@@ -56,6 +56,9 @@ Fast Fourier Transform
 Gaussian Elimination
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0832-D2-E.cpp
 
+Knuth Optimization
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/PKU/1738.cpp
+
 Manacher
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp
 

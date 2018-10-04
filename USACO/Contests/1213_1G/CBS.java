@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class CBS {
+public class Main {
 	static final boolean stdin = true;
 	static final String filename = "cbs";
 	static Reader in;

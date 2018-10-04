@@ -121,6 +121,8 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1516_1P/CARDGAME.java
 * Range add updates, range min and sum queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1516_1P/HAYBALES.java
+* Point set updates, range max queries
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1617_3P/NOCROSS.java
 
 Sparse Table
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp

@@ -17,10 +17,10 @@ Bipartite Matching
 * Basic
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/KPERFMAT.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/GoogleCodeJam/18-R2-C.java
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/11NOV-STEEPLE(1).java
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_1G/STEEPLE(1).java
 * Hopcroft Karp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/drawing-rectangles.java
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/11NOV-STEEPLE(3).java
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_1G/STEEPLE(3).java
 
 Bridges
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CEOI/17-OneWay.cpp
@@ -65,7 +65,7 @@ Manacher
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp
 
 Maximum Flow
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/11NOV-STEEPLE(2).java
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_1G/STEEPLE(2).java
 
 Minimum Cost Flow
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/cargo-delivery.cpp

@@ -9,6 +9,7 @@ Aliens Trick
 Biconnected Components
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/18-Duathlon(1).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/18-Duathlon(2).cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1718_1P/PUSHABOX.cpp
 
 Binary Lifting
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/UPDOTR.cpp
@@ -124,6 +125,8 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1516_1P/HAYBALES.java
 * Point set updates, range max queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1617_3P/NOCROSS.java
+* Range add updates, range max queries
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1718_1P/GREEDY.java
 
 Sparse Table
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp

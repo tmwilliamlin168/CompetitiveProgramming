@@ -12,6 +12,7 @@ Biconnected Components
 Binary Lifting
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/UPDOTR.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1023F(2).cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1516_1P/MAXFLOW.java
 
 Bipartite Matching
 * Basic

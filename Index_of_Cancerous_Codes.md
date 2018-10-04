@@ -20,6 +20,7 @@ Bipartite Matching
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/11NOV-STEEPLE(1).java
 * Hopcroft Karp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/drawing-rectangles.java
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/11NOV-STEEPLE(3).java
 
 Bridges
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CEOI/17-OneWay.cpp

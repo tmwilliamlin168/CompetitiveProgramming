@@ -118,7 +118,9 @@ Segment Tree
 * Point set updates, range max queries, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/17SC-Port_Facility.cpp
 * Range add updates, range max queries
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1516_1P/cardgame.java
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1516_1P/CARDGAME.java
+* Range add updates, range min and sum queries
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1516_1P/HAYBALES.java
 
 Sparse Table
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp

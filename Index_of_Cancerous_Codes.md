@@ -24,7 +24,7 @@ Bipartite Matching
 Bridges
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CEOI/17-OneWay.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/LONCYC.cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1000-D12-E.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1000E.cpp
 
 Centroid Decomposition
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(1).cpp
@@ -35,12 +35,12 @@ Convex Hull Trick
 * Pointer walk
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/10-Commando.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Sequence.cpp
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0536-D1-C.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0536C.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/mining.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IOI/16-Aliens.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/PKU/3709.cpp
 * Binary search
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0631-D2-E.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0631E.cpp
 * Dynamic
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CEOI/17-Building.cpp
 
@@ -48,14 +48,14 @@ Divide and Conquer Optimization
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/guardians-lunatics-ioi14.cpp
 
 Euler Paths
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1012-D1-E.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1012E.cpp
 
 Fast Fourier Transform
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/DOTIT.cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0993-D1-E.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0993E.cpp
 
 Gaussian Elimination
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0832-D2-E.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0832E.cpp
 
 Knuth Optimization
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/PKU/1738.cpp
@@ -67,7 +67,7 @@ Minimum Cost Flow
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/cargo-delivery.cpp
 
 Mo's Algorithm
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1000-D12-F.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1000F.cpp
 
 Prefix Function
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/MKSTR.cpp
@@ -78,7 +78,7 @@ Segment Tree
 * Range max updates, point queries, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/18-New_Home.cpp
 * Range add updates, range max queries
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/AtCoder/ARC-067-F.java
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/AtCoder/R067-F.java
 * Point set updates, range hash queries, persistent
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CSAcademy/84-G.cpp
 * Range permutation composition
@@ -88,15 +88,15 @@ Segment Tree
 * Range max updates, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/TBGRAPH.cpp
 * Max subarry sum in subarray queries
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0150-D1-C.java
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0150C.java
 * Add interval updates, length of union of intervals queries
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0258-D1-E.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0258E.cpp
 * Range multiply and add updates, range sum queries
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0981-D12-G.java
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0981G.java
 * Point min updates, range min queries, iterative
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1037-D12-H.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1037H.cpp
 * Range set updates, range max queries, iterative
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1042-D2-F.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1042F.cpp
 * Range add updates, range min queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/FacebookHackerCup/18-R2-D.java
 * Range add updates, range max queries, find all positive indicies
@@ -112,23 +112,23 @@ Segment Tree
 
 Sparse Table
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1000-D12-G.cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1023-D12-D.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1000G.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1023D.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(1).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
 
 Strongly Connected Components
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/09-ATM.cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF0403-D1-C.java
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0403C.java
 
 Suffix
 * Array
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp
 * Tree
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1037-D12-H.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1037H.cpp
 
 Top Tree
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/RIVER.cpp
 
 Z Function
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1051-D12-E.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1051E.cpp

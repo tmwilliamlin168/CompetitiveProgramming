@@ -1,5 +1,5 @@
 2D point add updates, range sum queries
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/CF1010-D1-E.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1010E.cpp
 
 Aliens Trick
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CSAcademy/82-E.java

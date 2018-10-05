@@ -34,6 +34,7 @@ Centroid Decomposition
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(1).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/13OC-Synchronization(1).cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1718_3P/NEWBARN(1).java
 
 Convex Hull Trick
 * Pointer walk

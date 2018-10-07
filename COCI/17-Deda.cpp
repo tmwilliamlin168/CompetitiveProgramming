@@ -23,11 +23,11 @@ void upd(int l1, int x, int i=1, int l2=0, int r2=n-1) {
 }
 
 int qry(int l1, int x, int i=1, int l2=0, int r2=n-1) {
+	if(st[i]>x)
+		return -2;
 	if(l2==r2)
-		return st[i]>x?-2:l2;
+		return l2;
 	int m2=(l2+r2)/2;
-	if(l1<=l2)
-		return st[2*i]<=x?qry(l1, x, 2*i, l2, m2):qry(l1, x, 2*i+1, m2+1, r2);
 	int r=-2;
 	if(l1<=m2)
 		r=qry(l1, x, 2*i, l2, m2);

@@ -7,10 +7,10 @@ Log started on 2018-05-27 22:49:54.487
 00:42:44:9 AC pE?
 00:43:34:2 pF looks interesting
 00:44:36:9 pG also has a solve, so I'm going to read it
-00:47:14:9 G seems doable?
-01:15:25:7 RTE test 3
+00:47:14:9 pG seems doable?
+01:15:25:7 RTE 3
 01:18:32:9 Didn't check for null stuff
-01:18:48:0 WA test 3 :(
+01:18:48:0 WA 3 :(
 01:19:07:6 I see a lot of ppl failed test 3 too for pG
 01:21:28:4 Going to stress test my solution
 01:31:19:9 Found a case that fails

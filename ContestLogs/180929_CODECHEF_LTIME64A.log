@@ -1,0 +1,54 @@
+Contest log for September Lunchtime 2018 Division 1
+Log started on 2018-09-29 21:59:59.421
+00:02:00:6 Reading "Coin Partition"
+00:02:56:7 Reading "Biased Judgement"
+00:04:20:3 Reading "Opposite Cites"
+00:05:00:6 Reading "Match the Streams"
+00:05:25:9 Writing "Match the Streams"
+00:10:43:2 Submitting "Match the Streams"
+00:10:57:6 Reading "Chef Restaurant"
+00:11:38:2 WA "Match the Streams"
+00:13:15:4 Fk misread "Match the Streams"
+00:17:13:5 Submitted "Chef Restaurant"
+00:17:15:0 Thinking "Opposite Cites"
+00:18:09:8 WTF TLE "Chef Restaurant"
+00:21:35:6 Resubmitted "Chef Restaurant" with array instead of map
+00:21:59:9 AC "Chef Restaurant"
+00:23:02:2 n is even
+00:23:05:7 Opposite city is just +n/2
+00:24:31:5 Is ai=a(i+n/2)?
+00:25:19:4 Yep
+00:29:01:8 One solve for "Coin Partition"
+00:29:04:5 Submitted "Opposite Cites"
+00:29:37:4 "Match the Streams" seems to be segtree
+00:29:41:4 AC "Opposite Cites"
+00:35:51:9 Finished coding "Match the Streams"
+00:38:35:7 submitting "Match the Streams"
+00:38:45:0 Thinking "Coin Partition"
+00:39:10:9 CE WTF
+00:40:50:4 Bitset knapsack?
+00:42:12:7 WA "Match the Streams"
+00:43:27:4 Oops forgot to reset between tests
+00:44:10:0 Submitting "Match the Streams"
+00:44:52:4 TLE and RTE second subtask
+00:51:13:3 Submitting "Match the Streams" with optimization
+00:52:53:6 All TLE now
+00:55:27:9 Reducing from log^2 to log with another segtree
+01:04:00:5 Submitting "Match the Streams"
+01:04:09:7 "Biased Judgement" now has more solves than "Coin Partition"
+01:06:01:6 AC "Match the Streams"
+01:06:07:7 "Biased Judgement" seems greedy
+01:07:32:7 Eliminate tests that get WA
+01:09:22:9 Sort tests by required TL?
+01:11:30:0 Treat wrong answer as a time of INF
+01:14:55:8 Process tests from least required TL
+01:26:34:9 All AC/WA case
+01:34:51:0 Submitted "Biased Judgement"
+01:37:11:9 AC "Biased Judgement"
+01:38:25:4 Chefu will have at most 500 more
+01:40:18:4 Seems like simple knapsack
+01:42:24:3 Wait a sec
+01:57:10:1 Hmm don't have complete proof that v can be sorted
+02:24:51:5 Submitting "Coin Partition"
+02:26:53:8 AC "Coin Partition"
+Map would've worked for "Chef Restaurant", CodeChef's servers were under high load

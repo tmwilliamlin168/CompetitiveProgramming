@@ -1,0 +1,37 @@
+Contest log for Lyft Level 5 Challenge 2018 - Elimination Round
+Log started on 2018-10-08 01:04:57.582
+00:11:11:9 Submitted pC
+00:28:43:4 pD sample bugs :(
+00:36:52:9 Submitting pD
+00:36:58:5 CE
+00:37:19:2 Resubmitted
+00:37:30:0 AC pD?
+00:37:35:7 Reading pE
+00:42:25:3 Reading pF
+00:46:21:7 Reading pG
+00:47:39:6 pG is not grundy, or is it?
+00:51:12:5 For each node, find an outward edge
+00:51:16:3 Build connected graph
+00:51:33:0 Test the partitions
+00:51:38:8 What if they don't work?
+00:51:49:7 How to find the odd cycle?
+00:52:50:7 Find the edge in one partition
+00:53:53:8 Compare bits to find the edge
+00:53:59:9 Wait finding outward edge isn't as trivial as I thought
+00:54:44:4 Ok I think it works, have to analyze number of queries though
+00:55:09:5 Coding it :)
+01:11:53:2 Oops finding edge in one partition is flawed
+01:13:10:9 Ok i think it will still work
+01:19:04:0 Finished coding
+01:21:52:1 Testing
+01:29:38:8 Submitted pE
+01:29:44:1 WA pre 2
+01:29:48:1 Gonna write my own iteractor / checker
+01:39:40:0 Found WA case
+01:44:46:9 Submitting pE
+01:44:50:0 Pre 3
+01:45:00:0 WA 8
+01:46:14:7 Submitting to check for invalid queries
+01:53:20:0 Found bug type
+01:54:22:9 WA 8 again?
+SMH I'm dumb, I only messed up the last part of finding the odd cycle

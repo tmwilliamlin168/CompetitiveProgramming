@@ -1,0 +1,21 @@
+Contest log for HourRank 30
+Log started on 2018-10-02 23:00:00.940
+00:04:14:3 Submitted pA
+00:04:18:8 Reading pB
+00:04:46:1 WA pA
+00:07:26:0 Submitted pA
+00:08:59:7 WA pA
+00:13:22:4 Submitting pA
+00:13:26:2 Hint from discussion forum
+00:13:30:4 AC pA WTF, horrible problem statement
+00:13:36:0 Reading pC
+00:25:57:5 Sample bugs pB
+00:32:29:3 Submitting pB
+00:33:21:1 TLE and WA
+00:36:41:3 Typo mn->mx
+00:37:17:2 Presentation error?
+00:37:41:6 Forgot to comment debugging code :(
+00:37:48:0 AC pB
+00:50:00:6 Submitting sketch sol for pC
+00:50:03:3 Should write brute force
+00:50:07:0 All WA

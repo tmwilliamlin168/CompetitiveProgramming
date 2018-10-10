@@ -93,5 +93,5 @@ ll findMaxAttraction(int n2, int s2, int d2, int a2[]) {
 	for(int i=0; i<n-1-i; ++i)
 		swap(a[i], a[n-1-i]);
 	s1();
-    return ans;
+	return ans;
 }

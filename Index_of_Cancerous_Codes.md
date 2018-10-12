@@ -114,6 +114,8 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/drawing-rectangles.java
 * Point add updates, range sum queries, persistent
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
+* Range max updates
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IZHO/13-Trading.cpp
 * Range set and add updates, point queries, persistent xor mergeable
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/13OC-Synchronization(1).cpp
 * Point set updates, maximum subarray sum queries

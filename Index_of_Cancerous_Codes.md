@@ -154,5 +154,8 @@ Suffix
 Top Tree
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/RIVER.cpp
 
+Treap
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/PRESTIGE.cpp
+
 Z Function
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1051E.cpp

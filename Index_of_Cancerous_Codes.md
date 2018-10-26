@@ -42,6 +42,7 @@ Convex Hull Trick
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/10-Commando.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Sequence.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0536C.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1067D.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/mining.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IOI/16-Aliens.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/PKU/3709.cpp

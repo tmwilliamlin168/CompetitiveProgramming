@@ -45,9 +45,6 @@ void solve() {
     cin >> n;
     for(int i=0; i<n; ++i)
         cin >> ss[i];
-    sort(ss, ss+n, [&](const string &a, const string &b) {
-        return nd(a)>nd(b);
-    });
     memset(ans, 0, sizeof(ans));
     fa=0;
     ti(0);

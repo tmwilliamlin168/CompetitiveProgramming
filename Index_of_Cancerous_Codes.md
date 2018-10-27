@@ -50,6 +50,8 @@ Convex Hull Trick
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0631E.cpp
 * Dynamic
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CEOI/17-Building.cpp
+* Square root
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/POI/18-Lightning_Conductor.cpp
 
 Divide and Conquer Optimization
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/guardians-lunatics-ioi14.cpp

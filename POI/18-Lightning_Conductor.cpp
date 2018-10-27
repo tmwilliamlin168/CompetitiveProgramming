@@ -1,3 +1,7 @@
+/*
+	- Any two functions only intersect once, so we can use CHT
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

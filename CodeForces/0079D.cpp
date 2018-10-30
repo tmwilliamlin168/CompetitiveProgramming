@@ -41,14 +41,12 @@ int main() {
 	}
 	memset(dp, 1, 4<<m);
 	dp[0]=0;
-	for(int i=3; i<1<<m; ++i) {
-		if(__builtin_popcount(i)&1)
-			continue;
-		for(int j=0; j<m; ++j)
-			if(i>>j&1)
-				for(int k=j+1; k<m; ++k)
-					if(i>>k&1)
-						dp[i]=min(dp[i^1<<j^1<<k]+c[j][k], dp[i]);
-	}
+	for(int i=3; i<1<<m; ++i)
+		if(__builtin_popcount(i)&1^1)
+			for(int j=0; j<m; ++j)
+				if(i>>j&1)
+					for(int k=j+1; k<m; ++k)
+						if(i>>k&1)
+							dp[i]=min(dp[i^1<<j^1<<k]+c[j][k], dp[i]);
 	cout << (dp[(1<<m)-1]>1e7?-1:dp[(1<<m)-1]);
 }

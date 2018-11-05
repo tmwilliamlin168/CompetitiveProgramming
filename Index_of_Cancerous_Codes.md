@@ -102,7 +102,7 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/KCOMPRES.cpp
 * Range max updates, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/TBGRAPH.cpp
-* Max subarry sum in subarray queries
+* Max subarray sum in subarray queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0150C.java
 * Add interval updates, length of union of intervals queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0258E.cpp
@@ -112,6 +112,8 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1037H.cpp
 * Range set updates, range max queries, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1042F.cpp
+* Range add updates, maximum and count of maximum queries
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1044F.cpp
 * Range add updates, range min queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/FacebookHackerCup/18-R2-D.java
 * Range add updates, range max queries, find all positive indicies

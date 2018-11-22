@@ -5,8 +5,8 @@ public class CustomDice {
 	int[] dp = new int[5999980];
 	
 	public int countDice(int m) {
-        if(m<4)
-            return 0;
+		if(m<4)
+			return 0;
 		Arrays.fill(dp, 30);
 		for(int i=1; i<=6; ++i)
 			for(int j=i; j<=6*m-21; ++j)

@@ -1,3 +1,8 @@
+/*
+	- If we use a[i] and b[j], then we also use at least one of a[i-1] or b[j-1]
+	- Thus, dp[i][j] only transitions from dp[i-1][k] or dp[k][j-1] and we can use CHT for fast transitions
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

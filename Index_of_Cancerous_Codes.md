@@ -87,6 +87,9 @@ Minimum Cost Flow
 Mo's Algorithm
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1000F.cpp
 
+Parallel Binary Search
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(1).cpp
+
 Prefix Function
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/MKSTR.cpp
 

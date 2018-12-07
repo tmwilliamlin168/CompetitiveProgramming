@@ -60,7 +60,7 @@ int main() {
 	}
 	sort(es, es+m+2*k);
 	for(int ei=0; ei<m+2*k; ++ei) {
-        if(es[ei].i!=-1)
+		if(es[ei].i!=-1)
 			ea[es[ei].i]+=es[ei].a*(qry(es[ei].x2+1, es[ei].y2+1)-qry(es[ei].x1, es[ei].y2+1)-qry(es[ei].x2+1, es[ei].y1)+qry(es[ei].x1, es[ei].y1));
 		else
 			for(int j=es[ei].x1+1; j<=xm; j+=j&-j)

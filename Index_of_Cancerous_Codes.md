@@ -1,5 +1,6 @@
 2D point add updates, range sum queries
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1010E.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1093E.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1617_3P/FRIENDCROSS.java
 
 Aliens Trick

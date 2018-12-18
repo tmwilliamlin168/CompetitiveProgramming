@@ -61,8 +61,8 @@ void upd(int l, int r, array<int, 2> x) {
 }
 
 array<int, 2> qry(int l, int r) {
-	psh(l);
-	psh(r-1);
+	psh(l+n);
+	psh(r+n-1);
 	array<int, 2> a={0, -1};
 	for(l+=n, r+=n; l<r; ++l/=2, r/=2) {
 		if(l&1)

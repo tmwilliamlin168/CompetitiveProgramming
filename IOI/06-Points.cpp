@@ -1,3 +1,7 @@
+/*
+	- https://github.com/mostafa-saad/MyCompetitiveProgramming/blob/master/Olympiad/IOI/official/2006/ioi06_points_sol.pdf
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

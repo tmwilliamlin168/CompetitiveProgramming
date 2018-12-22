@@ -35,7 +35,7 @@ public class Gathering {
 			anc = new int[n][17];
 			vis = new boolean[n];
 			dfs1(0, -1);
-			gd = new int[n];
+			gd = new int[n+1];
 			gu = new int[n];
 			while(m-->0) {
 				int a=in.nextInt()-1, b=in.nextInt()-1;
@@ -48,7 +48,8 @@ public class Gathering {
 					//child of a that is b's ancestor
 					int c=b;
 					for(int i=16; i>=0; --i)
-						if(ds[a]<ds[anc[c][i]])
+						if(anc[c][i]!=-1&&ds[a]<ds[anc[c][i]])
+							c=anc[c][i];
 					--gd[ds[c]];
 					++gd[de[c]];
 					//upward edges from a to root

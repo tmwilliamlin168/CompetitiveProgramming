@@ -65,7 +65,7 @@ public class Itout {
 				return new PIL(a.a, a.b);
 			if(a.a<b.a)
 				return new PIL(b.a, b.b);
-			return new PIL(a.a, a.b+b.b);
+			return new PIL(a.a, Math.min(a.b+b.b, (long)1e18));
 		}
 		
 		static class FenwickTree {

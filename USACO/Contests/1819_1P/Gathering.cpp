@@ -2,7 +2,7 @@
 using namespace std;
 
 const int mxN=1e5;
-int n, m, ui, vi, anc[mxN][17], dt, ds[mxN], de[mxN], gu[mxN+1], gd[mxN+1], ai, bi;
+int n, m, ui, vi, anc[mxN][17], dt, ds[mxN], de[mxN], gu[mxN], gd[mxN+1], ai, bi;
 vector<int> adj1[mxN], adj2[mxN];
 bool vis[mxN], act[mxN], fk, a1[mxN];
 
@@ -63,7 +63,7 @@ int main() {
 			//child of a that is b's ancestor
 			int c=bi;
 			for(int i=16; i>=0; --i)
-				if(ds[ai]<ds[anc[c][i]])
+				if(anc[c][i]!=-1&&ds[ai]<ds[anc[c][i]])
 					c=anc[c][i];
 			--gd[ds[c]];
 			++gd[de[c]];

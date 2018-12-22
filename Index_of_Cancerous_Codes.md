@@ -9,7 +9,7 @@ Aliens Trick
 
 AVL Tree
 * Persistent
-	https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1056G.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1056G.cpp
 
 Biconnected Components
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/18-Duathlon(1).cpp

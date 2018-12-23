@@ -33,7 +33,5 @@ int main() {
 			++i2;
 		//output height of the convex hull at point i1
 		cout << (ll)(((__int128)100000*((ch[i2+1][1]-ch[i2][1])*(i1-ch[i2][0])+ch[i2][1]*(ch[i2+1][0]-ch[i2][0])))/(ch[i2+1][0]-ch[i2][0])) << "\n";
-//		cout << (ch[i2+1][1]-ch[i2][1]) << " " << (i1-ch[i2][0]) << " " << ch[i2+1][0]-ch[i2][0] << " " << ch[i2][1] << "\n";
-//		cout << (ll)((ch[i2+1][1]-ch[i2][1])*(i1-ch[i2][0])*100000.0/(ch[i2+1][0]-ch[i2][0]))+100000*ch[i2][1] << "\n";
 	}
 }

@@ -43,6 +43,9 @@ Centroid Decomposition
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/13OC-Synchronization(1).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1718_3P/NEWBARN(1).java
 
+Convex Hull
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1819_1P/Balance.cpp
+
 Convex Hull Trick
 * Pointer walk
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/10-Commando.cpp

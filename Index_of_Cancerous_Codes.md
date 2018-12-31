@@ -1,3 +1,6 @@
+2-Satisfiability
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1007D.cpp
+
 2D point add updates, range sum queries
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1010E.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1093E.cpp

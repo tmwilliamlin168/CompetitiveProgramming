@@ -82,6 +82,7 @@ Gaussian Elimination
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0832E.cpp
 
 Heavy Light Decomposition
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1007D.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_2G/GRASSPLANT(2).java
 
 Knuth Optimization

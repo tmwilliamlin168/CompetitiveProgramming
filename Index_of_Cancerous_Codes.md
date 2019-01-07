@@ -69,6 +69,9 @@ Convex Hull Trick
 * Square root
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/POI/18-Lightning_Conductor.cpp
 
+Count lattice points below line
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1098E.cpp
+
 Divide and Conquer Optimization
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/guardians-lunatics-ioi14.cpp
 

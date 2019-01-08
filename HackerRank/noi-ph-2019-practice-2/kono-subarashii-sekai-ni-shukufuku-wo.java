@@ -14,6 +14,7 @@ public class Solution {
 	static class Solver {
 		int n, d, s, ans;
 		Monster[] ms;
+		
 		Solver() {
 			n=in.nextInt();
 			d=in.nextInt();

@@ -6,6 +6,9 @@
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1093E.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1617_3P/FRIENDCROSS.java
 
+Aho-Corasick
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/COCI/15-Divljak.cpp
+
 Aliens Trick
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CSAcademy/82-E.java
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IOI/16-Aliens.cpp

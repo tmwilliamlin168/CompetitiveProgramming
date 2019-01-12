@@ -4,9 +4,9 @@ using namespace std;
 #define ll long long
 
 const int mxN=50, M=998244353, i2=499122177, i6=166374059;
-int n, t, y[2*mxN];
+int n, t, it[mxN*mxN+1], y[2*mxN];
 array<int, 2> p[mxN];
-ll ans, it[mxN*mxN+1], b[3];
+ll ans, b[3];
 
 ll f(int t) {
 	for(int i=0; i<n; ++i) {
@@ -40,17 +40,16 @@ int main() {
 	it[0]=t;
 	sort(it, it+n*n+1);
 	for(int i=0; it[i]<t; ++i) {
-		for(int j=0; j<min(3ll, it[i+1]-it[i]); ++j)
+	    ll td=it[i+1]-it[i];
+		for(int j=0; j<min(3ll, td); ++j)
 			b[j]=f(it[i]+j);
-		if(it[i+1]-it[i]<4) {
-			for(int j=0; j<it[i+1]-it[i]; ++j)
+		if(td>=4) {
+			ans+=(b[0]*i2+M-b[1]+b[2]*i2)%M*(td-1)%M*td%M*(2*td-1)%M*i6%M;
+			ans+=(M-3*b[0]*i2%M+2*b[1]+M-b[2]*i2%M)%M*(td-1)%M*td%M*i2%M;
+			ans+=b[0]*td%M;
+		} else
+			for(int j=0; j<td; ++j)
 				ans+=b[j];
-			continue;
-		}
-		ll td=it[i+1]-it[i];
-		ans+=(b[0]*i2+M-b[1]+b[2]*i2)%M*(td-1)%M*td%M*(2*td-1)%M*i6%M;
-		ans+=(M-3*b[0]*i2%M+2*b[1]+M-b[2]*i2%M)%M*(td-1)%M*td%M*i2%M;
-		ans+=b[0]*td%M;
 	}
 	cout << (t*f(t)-ans%M+M)%M;
 }

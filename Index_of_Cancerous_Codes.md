@@ -11,6 +11,7 @@ Aho-Corasick
 
 Aliens Trick
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CSAcademy/82-E.java
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CSAcademy/romanian-ioi-2017-selection-2-C.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IOI/16-Aliens.cpp
 
 AVL Tree

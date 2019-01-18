@@ -79,6 +79,9 @@ Count lattice points below line
 Divide and Conquer Optimization
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/guardians-lunatics-ioi14.cpp
 
+Dynamic Connectivity
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0938G.cpp
+
 Euler Paths
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1012E.cpp
 
@@ -88,6 +91,7 @@ Fast Fourier Transform
 
 Gaussian Elimination
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0832E.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0938G.cpp
 
 Heavy Light Decomposition
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1007D.cpp

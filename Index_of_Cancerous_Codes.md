@@ -106,6 +106,9 @@ Manacher
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1080E.cpp
 
+Maximum Clique
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1105E.cpp
+
 Maximum Flow
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_1G/STEEPLE(2).java
 

@@ -94,6 +94,7 @@ Gaussian Elimination
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0938G.cpp
 
 Heavy Light Decomposition
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/ADITREE.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1007D.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/G102052E.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/18SC-Construction.cpp
@@ -137,6 +138,8 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/AtCoder/R067-F.java
 * Point set updates, range hash queries, persistent
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CSAcademy/84-G.cpp
+* Range flip 0<->1 updates, range sum queries
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/ADITREE.cpp
 * Range permutation composition
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/DOCSDEL.cpp
 * Point max updates, range max queries, iterative

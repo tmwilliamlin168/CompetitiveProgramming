@@ -19,7 +19,7 @@ template<typename T> struct fft {
 			T an=2*PI*i/n;
 			rt[i+n/2]={cos(an), sin(an)};
 		}
-		for(int i=n/2; --i>=1; )
+		for(int i=n/2; --i; )
 			rt[i]=rt[2*i];
 	}
 	void ac(vector<cp<T>> &a) {

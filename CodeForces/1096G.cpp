@@ -23,7 +23,7 @@ struct ntt {
 		rt[n/2+1]=pm(G, (M-1)/n);
 		for(int i=n/2+2; i<n; ++i)
 			rt[i]=rt[i-1]*rt[n/2+1]%M;
-		for(int i=n/2; --i>=1; )
+		for(int i=n/2; --i; )
 			rt[i]=rt[2*i];
 	}
 	void ac(vector<ll> &a) {

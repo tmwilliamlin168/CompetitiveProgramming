@@ -122,6 +122,7 @@ Mo's Algorithm
 
 Number Theoretic Transform
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1096G.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1096G.java
 
 Parallel Binary Search
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(1).cpp

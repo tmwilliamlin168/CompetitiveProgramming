@@ -1,10 +1,11 @@
 2-Satisfiability
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1007D.cpp
 
-2D point add updates, range sum queries
+2D BIT point updates, range queries
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1010E.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1093E.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1617_3P/FRIENDCROSS.java
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1819_2P/redistricting.cpp
 
 Aho-Corasick
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/COCI/15-Divljak.cpp

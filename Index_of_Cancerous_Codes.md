@@ -164,6 +164,8 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1091E.cpp
 * Range add updates, range min queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/FacebookHackerCup/18-R2-D.java
+* Point set updates, range maximum subarray sum queries
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/noi-ph-2019/saishuu-shinpan.java
 * Point set updates, range min queries, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/basketball-tournament-1.cpp
 * Range add updates, range max queries, find all positive indicies

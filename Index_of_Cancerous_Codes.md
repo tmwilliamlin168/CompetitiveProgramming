@@ -37,7 +37,7 @@ Bipartite Matching
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/GoogleCodeJam/18-R2-C.java
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_1G/STEEPLE(1).java
 * Hopcroft Karp
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/drawing-rectangles.java
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/university-codesprint-4/drawing-rectangles.java
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/SPOJ/MATCHING.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_1G/STEEPLE(3).java
 
@@ -166,10 +166,10 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/FacebookHackerCup/18-R2-D.java
 * Point set updates, range maximum subarray sum queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/noi-ph-2019/saishuu-shinpan.java
+* Range add updates, range max queries, find all positive indicies
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/university-codesprint-4/drawing-rectangles.java
 * Point set updates, range min queries, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/basketball-tournament-1.cpp
-* Range add updates, range max queries, find all positive indicies
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/drawing-rectangles.java
 * Point add updates, range sum queries, persistent
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
 * Range max updates, iterative

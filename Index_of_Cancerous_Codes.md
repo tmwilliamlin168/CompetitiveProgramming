@@ -47,8 +47,8 @@ Bridges
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1000E.cpp
 
 Centroid Decomposition
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(1).cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(1).cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(2).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/13OC-Synchronization(1).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1718_3P/NEWBARN(1).java
 
@@ -78,7 +78,7 @@ Count lattice points below line
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1098E.cpp
 
 Divide and Conquer Optimization
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/guardians-lunatics-ioi14.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/ioi-2014-practice-contest-2/guardians-lunatics-ioi14.cpp
 
 Dynamic Connectivity
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0938G.cpp
@@ -116,7 +116,7 @@ Maximum Flow
 
 Minimum Cost Flow
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1061E.cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/cargo-delivery.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/cargo-delivery.cpp
 
 Mo's Algorithm
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1000F.cpp
@@ -126,7 +126,7 @@ Number Theoretic Transform
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1096G.java
 
 Parallel Binary Search
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(1).cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(1).cpp
 
 Prefix Function
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/MKSTR.cpp
@@ -164,14 +164,14 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1091E.cpp
 * Range add updates, range min queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/FacebookHackerCup/18-R2-D.java
+* Point set updates, range min queries, iterative
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/hourrank-31/basketball-tournament-1.cpp
 * Point set updates, range maximum subarray sum queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/noi-ph-2019/saishuu-shinpan.java
 * Range add updates, range max queries, find all positive indicies
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/university-codesprint-4/drawing-rectangles.java
-* Point set updates, range min queries, iterative
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/basketball-tournament-1.cpp
 * Point add updates, range sum queries, persistent
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(2).cpp
 * Range max updates, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IZHO/13-Trading.cpp
 * Range set and add updates, point queries, persistent xor mergeable
@@ -195,8 +195,8 @@ Sparse Table
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1023D.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1032G.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1083C.cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(1).cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/neighborhood-queries(2).cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(1).cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(2).cpp
 
 Strongly Connected Components
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/09-ATM.cpp

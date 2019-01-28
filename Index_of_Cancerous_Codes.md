@@ -126,6 +126,7 @@ Mo's Algorithm
 Number Theoretic Transform
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1096G.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1096G.java
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/noi-ph-2019/yet-another-packing-problem.java
 
 Parallel Binary Search
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(1).cpp

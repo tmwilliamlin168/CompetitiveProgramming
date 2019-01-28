@@ -85,6 +85,7 @@ Dynamic Connectivity
 
 Euler Paths
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1012E.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/noi-ph-2019/spratly-islands-tour.java
 
 Fast Fourier Transform
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/DOTIT.cpp

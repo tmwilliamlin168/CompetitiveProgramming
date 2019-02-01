@@ -78,6 +78,9 @@ Convex Hull Trick
 Count lattice points below line
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1098E.cpp
 
+Discrete Logarithm
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1106F.cpp
+
 Divide and Conquer Optimization
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/ioi-2014-practice-contest-2/guardians-lunatics-ioi14.cpp
 

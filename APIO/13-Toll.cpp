@@ -33,8 +33,7 @@ struct dsu {
 		return x==p[x]?x:(p[x]=find(p[x]));
 	}
 	bool join(int x, int y) {
-		if((x=find(x))!=(y=find(y)))
-			p[y]=x;
+		p[y=find(y)]=x=find(x);
 		return x^y;
 	}
 };

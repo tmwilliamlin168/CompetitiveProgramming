@@ -7,9 +7,9 @@
 		- Find these first
 	- Then test all 2^k combinations
 	- For each old road (u, v) that isn't used, the path from u to v cannot have edge weights greater than that old road
-	- We can run dfs from u to v and make sure the new roads aren't too big, which will be O(k^2) per combination
+	- We can run dfs from u to v and update the weights of the new roads, which will be O(k^2) per combination
 	- This will pass with optimizations
-	- We can sort the new roads by weight, and when we set an edge from u to its parent, we can merge them so we never set the edge again
+	- We can sort the new roads by weight, and when we update the weight from u to its parent, we can merge them so we never update the edge again
 	- O(k*a(k)) per combination
 	- Union by rank is removed as it actually makes the program slower
 */

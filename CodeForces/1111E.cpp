@@ -7,7 +7,7 @@ const int mxN=1e5, mxM=300, M=1e9+7;
 int n, q, dt;
 vector<int> adj[mxN], oc[mxN];
 array<int, 2> is[mxN];
-ll dp[mxN+1][mxM+1];
+ll dp[2][mxM+1];
 
 void dfs(int u, int p=-1) {
 	oc[u].push_back(dt++);
@@ -34,7 +34,6 @@ int main() {
 	for(int i=0; i<n; ++i)
 		for(int j=0; oc[i][j]<2*n-2; ++j)
 			oc[i].push_back(oc[i][j]+2*n-2);
-	dp[0][0]=1;
 	for(int k, m, r; q--; ) {
 		cin >> k >> m >> r, --r;
 		for(int i=0, u; i<k; ++i) {
@@ -43,16 +42,19 @@ int main() {
 		}
 		sort(is, is+k);
 		priority_queue<int, vector<int>, greater<int>> pq;
+		memset(dp, 0, 8*(m+1));
+		dp[0][0]=1;
 		for(int i=0; i<k; ++i) {
 			while(pq.size()&&pq.top()<is[i][0])
 				pq.pop();
+			dp[i&1^1][0]=0;
 			for(int j=1; j<=m; ++j)
-				dp[i+1][j]=(dp[i][j-1]+dp[i][j]*max(j-(int)pq.size(), 0))%M;
+				dp[i&1^1][j]=(dp[i&1][j-1]+dp[i&1][j]*max(j-(int)pq.size(), 0))%M;
 			pq.push(is[i][1]);
 		}
 		ll ans=0;
 		for(int i=1; i<=m; ++i)
-			ans+=dp[k][i];
+			ans+=dp[k&1][i];
 		cout << ans%M << "\n";
 	}
 }

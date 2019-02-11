@@ -5,7 +5,7 @@ using namespace std;
 
 const int mxN=1e6, mxM=11;
 int n, m, e[mxN];
-ll k, g, p[mxM], b[mxM], dp[mxM+1][1<<mxM], ans=1e15;
+ll k, g, p[mxM], b[mxM], dp[mxM+1][1<<mxM], ans=1e15, ck[1<<mxM];
 array<ll, 3> a[mxN];
 vector<int> c[1<<mxM], d[mxN];
 
@@ -38,6 +38,7 @@ int main() {
 		a[i][2]=i;
 	}
 	sort(a, a+n);
+	ck[0]=1;
 	for(int l=0, r=0; l<n; l=r) {
 		for(; r<n&&a[r][0]==a[l][0]; ++r);
 		for(int i=0; i<m; ++i) {
@@ -46,13 +47,11 @@ int main() {
 				b[i]*=p[i];
 				a[l][0]/=p[i];
 			}
+			for(int j=0; j<1<<i; ++j)
+				ck[j|1<<i]=ck[j]*b[i];
 		}
 		for(int i=0; i<1<<m; ++i) {
-			ll ck=1;
-			for(int j=0; j<m; ++j)
-				if(i>>j&1)
-					ck*=b[j];
-			if(ck<=k) {
+			if(ck[i]<=k) {
 				vector<int> tc=c[i];
 				c[i].clear();
 				for(int j1=0, j2=l; (j1<tc.size()||j2<min(r, l+m))&&c[i].size()<m; ) {

@@ -4,8 +4,8 @@
 2D BIT point updates, range queries
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1010E.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1093E.cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1617_3P/FRIENDCROSS.java
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1819_2P/redistricting.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1617_3P/Friendcross.java
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1819_2P/Redistricting.cpp
 
 Aho-Corasick
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/COCI/15-Divljak.cpp
@@ -22,12 +22,12 @@ AVL Tree
 Biconnected Components
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/18-Duathlon(1).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/18-Duathlon(2).cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1718_1P/PUSHABOX.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1718_1P/Pushabox.cpp
 
 Binary Lifting
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/UPDOTR.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1023F(2).cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1516_1P/MAXFLOW.java
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1516_1P/Maxflow.java
 
 Bipartite Matching
 * Basic
@@ -35,11 +35,11 @@ Bipartite Matching
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/KPERFMAT.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1054F.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/GoogleCodeJam/18-R2-C.java
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_1G/STEEPLE(1).java
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_1G/Steeple(1).java
 * Hopcroft Karp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/university-codesprint-4/drawing-rectangles.java
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/SPOJ/MATCHING.cpp
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_1G/STEEPLE(3).java
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_1G/Steeple(3).java
 
 Bridges
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CEOI/17-OneWay.cpp
@@ -51,7 +51,7 @@ Centroid Decomposition
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(1).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(2).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/13O-Synchronization(1).cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1718_3P/NEWBARN(1).java
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1718_3P/Newbarn(1).java
 
 Convex Hull
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1819_1P/Balance.cpp
@@ -104,7 +104,7 @@ Heavy Light Decomposition
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1007D.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/G102052E.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/18S-Construction.cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_2G/GRASSPLANT(2).java
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_2G/Grassplant(2).java
 
 Knuth Optimization
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/PKU/1738.cpp
@@ -117,7 +117,7 @@ Maximum Clique
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1105E.cpp
 
 Maximum Flow
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_1G/STEEPLE(2).java
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_1G/Steeple(2).java
 
 Minimum Cost Flow
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1061E.cpp
@@ -187,13 +187,13 @@ Segment Tree
 * Point set updates, range max queries, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/17S-Port_Facility.cpp
 * Range add updates, range max queries
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1516_1P/CARDGAME.java
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1516_1P/Cardgame.java
 * Range add updates, range min and sum queries
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1516_1P/HAYBALES.java
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1516_1P/Haybales.java
 * Point set updates, range max queries
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1617_3P/NOCROSS.java
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1617_3P/Nocross.java
 * Range add updates, range max queries
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1718_1P/GREEDY.java
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1718_1P/Greedy.java
 
 Sparse Table
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp
@@ -212,7 +212,7 @@ Strongly Connected Components
 Suffix
 * Array
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1718_1P/STANDINGOUT.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1718_1P/Standingout.cpp
 * Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1037H.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1073G.cpp

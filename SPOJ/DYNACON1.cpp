@@ -62,34 +62,31 @@ struct linkcut {
 		}
 		c[u][i]=0;
 	}
-	void spc(int u) {
-		spl(pp[u]);
-		dc(pp[u], 1);
-		cn(u, pp[u], 1);
-		pp[u]=0;
-		spl(u);
-	}
-	int as(int u) {
-		dc(spl(u), 1);
-		while(pp[u])
-			spc(u);
-		return u;
+	int xp(int u) {
+		int v=0;
+		for(int w=u; w; v=w, w=pp[w]) {
+			spl(w);
+			dc(w, 1);
+			cn(v, w, 1);
+			pp[v]=0;
+		}
+		return spl(u);
 	}
 	int mr(int u) {
-		return app(as(u));
+		return app(xp(u));
 	}
 	void lk(int u, int v) {
 		pp[mr(u)]=v;
 	}
 	void ct(int u) {
-		dc(as(u), 0);
+		dc(xp(u), 0);
 	}
 	int bg(int u) {
 		psh(u);
 		return c[u][0]?bg(c[u][0]):spl(u);
 	}
 	int gr(int u) {
-		return bg(as(u));
+		return bg(xp(u));
 	}
 };
 linkcut<100000> lc;

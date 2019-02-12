@@ -95,8 +95,7 @@ struct splay {
 	}
 };
 
-const int mxN=2e5;
-splay<mxN+1> spl;
+splay<200001> spl;
 
 int main() {
 	ios::sync_with_stdio(0);

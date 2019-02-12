@@ -94,7 +94,6 @@ struct splay {
 		return s[c[rt][0]];
 	}
 };
-
 splay<200001> spl;
 
 int main() {

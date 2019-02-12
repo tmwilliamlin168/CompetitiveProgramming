@@ -50,7 +50,7 @@ Bridges
 Centroid Decomposition
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(1).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(2).cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/13OC-Synchronization(1).cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/13O-Synchronization(1).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1718_3P/NEWBARN(1).java
 
 Convex Hull
@@ -71,7 +71,7 @@ Convex Hull Trick
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0631E.cpp
 * Dynamic
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CEOI/17-Building.cpp
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/17SC-Coach.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/17S-Coach.cpp
 * Square root
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/POI/18-Lightning_Conductor.cpp
 
@@ -103,7 +103,7 @@ Heavy Light Decomposition
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/ADITREE.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1007D.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/G102052E.cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/18SC-Construction.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/18S-Construction.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_2G/GRASSPLANT(2).java
 
 Knuth Optimization
@@ -181,11 +181,11 @@ Segment Tree
 * Range max updates, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IZHO/13-Trading.cpp
 * Range set and add updates, point queries, persistent xor mergeable
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/13OC-Synchronization(1).cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/13O-Synchronization(1).cpp
 * Point set updates, maximum subarray sum queries
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/17OC-Bulldozer.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/17O-Bulldozer.cpp
 * Point set updates, range max queries, iterative
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/17SC-Port_Facility.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/17S-Port_Facility.cpp
 * Range add updates, range max queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1516_1P/CARDGAME.java
 * Range add updates, range min and sum queries

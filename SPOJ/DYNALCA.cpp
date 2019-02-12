@@ -62,18 +62,14 @@ struct linkcut {
 		}
 		c[u][i]=0;
 	}
-	void spc(int u) {
-		spl(pp[u]);
-		dc(pp[u], 1);
-		cn(u, pp[u], 1);
-		pp[u]=0;
-		spl(u);
-	}
 	int xp(int u) {
-		dc(spl(u), 1);
-		while(pp[u])
-			spc(u);
-		return u;
+		for(int v=0, w=u; w; v=w, w=pp[w]) {
+			spl(w);
+			dc(w, 1);
+			cn(v, w, 1);
+			pp[v]=0;
+		}
+		return spl(u);
 	}
 	int mr(int u) {
 		return app(xp(u));

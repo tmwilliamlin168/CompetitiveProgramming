@@ -25,89 +25,67 @@ int n, m, s, dp, nxt[mxN][40], ni;
 long long t;
 
 struct avltree {
-	int a[mxATS], lc[mxATS], rc[mxATS], s[mxATS], h[mxATS], ts=1;
+	int a[mxATS], c[mxATS][2], s[mxATS], h[mxATS], ts=1;
 	int cpy(int u, bool b=1) {
 		if(!b)
 			return u;
 		a[ts]=a[u];
-		lc[ts]=lc[u];
-		rc[ts]=rc[u];
+		c[ts][0]=c[u][0];
+		c[ts][1]=c[u][1];
 		s[ts]=s[u];
 		h[ts]=h[u];
 		return ts++;
 	}
 	void rcl(int u) {
-		s[u]=s[lc[u]]+1+s[rc[u]];
-		h[u]=max(h[lc[u]], h[rc[u]])+1;
+		s[u]=s[c[u][0]]+1+s[c[u][1]];
+		h[u]=max(h[c[u][0]], h[c[u][1]])+1;
 	}
 	void dfs(int u) {
 		if(!u)
 			return;
-		dfs(lc[u]);
+		dfs(c[u][0]);
 		nxt[ni++][0]=a[u];
-		dfs(rc[u]);
+		dfs(c[u][1]);
 	}
-	bool hl(int u) {
-		return h[lc[u]]-h[rc[u]]>1;
+	bool hc(int u, int i) {
+		return h[c[u][i]]-h[c[u][!i]]>1;
 	}
-	bool hr(int u) {
-		return h[rc[u]]-h[lc[u]]>1;
-	}
-	int rr(int u) {
-		int v=lc[u];
-		lc[u]=rc[v];
-		rc[v]=u;
-		rcl(u);
-		rcl(v);
-		return v;
-	}
-	int rl(int u) {
-		int v=rc[u];
-		rc[u]=lc[v];
-		lc[v]=u;
+	int ro(int u, int i) {
+		int v=c[u][!i];
+		c[u][!i]=c[v][i];
+		c[v][i]=u;
 		rcl(u);
 		rcl(v);
 		return v;
 	}
 	int rbl(int u, bool b=1) {
-		if(hl(u)) {
+		for(int i : {0, 1}) {
+			if(!hc(u, i))
+				continue;
 			u=cpy(u, b);
-			lc[u]=cpy(lc[u]);
-			if(h[rc[lc[u]]]>h[lc[lc[u]]]) {
-				rc[lc[u]]=cpy(rc[lc[u]]);
-				lc[u]=rl(lc[u]);
+			int &v=c[u][i]=cpy(c[u][i]);
+			if(h[c[v][!i]]>h[c[v][i]]) {
+				c[v][!i]=cpy(c[v][!i]);
+				v=ro(v, i);
 			}
-			u=rr(u);
-		} else if(hr(u)) {
-			u=cpy(u, b);
-			rc[u]=cpy(rc[u]);
-			if(h[lc[rc[u]]]>h[rc[rc[u]]]) {
-				lc[rc[u]]=cpy(lc[rc[u]]);
-				rc[u]=rr(rc[u]);
-			}
-			u=rl(u);
+			u=ro(u, !i);
 		}
 		return u;
 	}
 	int rbl2(int u, bool b=1) {
-		bool b1=hl(u), b2=hr(u);
-		if(!b1&&!b2)
+		bool d[2]={hc(u, 0), hc(u, 1)};
+		if(!d[0]&&!d[1])
 			return u;
 		u=rbl(u, b);
-		if(b1) {
-			if(h[rc[u]]<h[lc[u]]) {
-				lc[u]=cpy(lc[u]);
-				u=rr(u);
-				rc[rc[u]]=rbl2(rc[rc[u]]);
+		for(int i : {0, 1}) {
+			if(!d[i])
+				continue;
+			if(h[c[u][i]]>h[c[u][!i]]) {
+				c[u][i]=cpy(c[u][i]);
+				u=ro(u, !i);
+				c[c[u][!i]][!i]=rbl2(c[c[u][!i]][!i]);
 			} else
-				rc[u]=rbl2(rc[u]);
-		} else {
-			if(h[lc[u]]<h[rc[u]]) {
-				rc[u]=cpy(rc[u]);
-				u=rl(u);
-				lc[lc[u]]=rbl2(lc[lc[u]]);
-			} else
-				lc[u]=rbl2(lc[u]);
+				c[u][!i]=rbl2(c[u][!i]);
 		}
 		rcl(u);
 		return u;
@@ -118,10 +96,10 @@ struct avltree {
 		int w;
 		if(h[u]>h[v]) {
 			w=cpy(u);
-			rc[w]=mrg(rc[w], v);
+			c[w][1]=mrg(c[w][1], v);
 		} else {
 			w=cpy(v);
-			lc[w]=mrg(u, lc[w]);
+			c[w][0]=mrg(u, c[w][0]);
 		}
 		rcl(w);
 		return rbl(w, 0);
@@ -130,15 +108,15 @@ struct avltree {
 		if(!u)
 			return {0, 0};
 		u=cpy(u);
-		if(k<=s[lc[u]]) {
-			ar<int, 2> a=spl(lc[u], k);
-			lc[u]=a[1];
+		if(k<=s[c[u][0]]) {
+			ar<int, 2> a=spl(c[u][0], k);
+			c[u][0]=a[1];
 			u=rbl2(u, 0);
 			rcl(u);
 			return {a[0], u};
 		} else {
-			ar<int, 2> a=spl(rc[u], k-s[lc[u]]-1);
-			rc[u]=a[0];
+			ar<int, 2> a=spl(c[u][1], k-s[c[u][0]]-1);
+			c[u][1]=a[0];
 			u=rbl2(u, 0);
 			rcl(u);
 			return {u, a[1]};

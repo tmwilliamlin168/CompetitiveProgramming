@@ -63,8 +63,7 @@ struct linkcut {
 		c[u][i]=0;
 	}
 	int xp(int u) {
-		int v=0;
-		for(int w=u; w; v=w, w=pp[w]) {
+		for(int v=0, w=u; w; v=w, w=pp[w]) {
 			spl(w);
 			dc(w, 1);
 			cn(v, w, 1);

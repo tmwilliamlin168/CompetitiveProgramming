@@ -1,7 +1,7 @@
 /*
 	- If x is an opening position, then i*x is also an opening position
 	- All opening positions can be described as 0, a, 2a, ..., where a is a factor of n
-	- a will not be a factor of gcd(m[i], n) for i<k-1 and is a factor of gcd(m[k-1], n)
+	- a will not be a factor of gcd(m[i], n) for i<k and is a factor of gcd(m[k], n)
 */
 
 #include <bits/stdc++.h>

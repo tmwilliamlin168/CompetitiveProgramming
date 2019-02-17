@@ -50,6 +50,13 @@ void solve() {
 		}
 		is[i]^=1;
 	};
+	for(int i=0; i<m; ++i) {
+		fr();
+		if(!is[i^1]&&r[a[i][0]]!=r[a[i][1]]) {
+			tg(i);
+			++ans;
+		}
+	}
 	while(1) {
 		memset(adj, 0, sizeof(adj));
 		for(int i=0; i<m; ++i) {

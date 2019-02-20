@@ -234,6 +234,7 @@ Top Tree
 
 Treap
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/PRESTIGE.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1109C.cpp
 
 Z Function
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1051E.cpp

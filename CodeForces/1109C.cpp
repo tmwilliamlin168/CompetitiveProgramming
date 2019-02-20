@@ -40,7 +40,7 @@ struct treap {
 	}
 	array<int, 2> spl(int u, int x) {
 		if(!u)
-			return {0, 0};
+			return {};
 		if(k[u]<x) {
 			array<int, 2> a=spl(rc[u], x);
 			rc[u]=a[0];

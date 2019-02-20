@@ -233,8 +233,11 @@ Top Tree
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/RIVER.cpp
 
 Treap
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/PRESTIGE.cpp
-* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1109C.cpp
+* Normal
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/PRESTIGE.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1109C.cpp
+* Persistent
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/TWOARR.cpp
 
 Z Function
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1051E.cpp

@@ -77,10 +77,10 @@ int main() {
 	cin >> n >> m;
 	for(int i=1; i<=n; ++i)
 		cin >> a0[i];
-	mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+	mt19937 mg(69);
 	for(int i=1; i<=n; ++i) {
 		cin >> a1[i];
-		pr[i]=rng();
+		pr[i]=mg();
 		rcl(i);
 		if(i>1)
 			rt=mrg(rt, i);

@@ -4,7 +4,7 @@ using namespace std;
 #define ll long long
 
 const int mxQ=1e5;
-mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+mt19937 mg(69);
 int q;
 
 template<size_t S>
@@ -54,7 +54,7 @@ struct treap {
 	int ins(int u, int v, int ki, int si) {
 		k[v]=ki;
 		s[v]=si;
-		pr[v]=rng();
+		pr[v]=mg();
 		array<int, 2> a=spl(u, ki), b=spl(a[1], ki+1);
 		return mrg(a[0], mrg(cmb(v), b[1]));
 	}

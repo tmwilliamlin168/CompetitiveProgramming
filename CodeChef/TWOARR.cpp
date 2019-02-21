@@ -5,7 +5,7 @@ using namespace std;
 
 const int mxN=2e5;
 int n, q;
-mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+mt19937 mg(69);
 
 template<size_t S>
 struct treap {
@@ -29,7 +29,7 @@ struct treap {
 	int mrg(int u, int v) {
 		if(!u||!v)
 			return u^v;
-		if(rng()%(s0[u]+s0[v])<s0[u]) {
+		if(mg()%(s0[u]+s0[v])<s0[u]) {
 			u=cpy(u);
 			rc[u]=mrg(rc[u], v);
 			return cmb(u);

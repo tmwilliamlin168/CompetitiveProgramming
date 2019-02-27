@@ -1,3 +1,10 @@
+/*
+	- Do coordinate compression, and we end up with at most 200*200 important points
+	- Check if edges can be added between adjacent points
+	- We can use dijkstra to find a path that starts from v and goes around the main mansion
+	- We only have to test 100 such v, which are the top-left corners of the rectangles
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,10 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
+
 const int mxN=5e3;
 int t, n, dp[mxN][mxN], td[mxN], ui, vi;
 vector<int> adj[mxN];
- 
+
 int dfs(int u=0, int p=-1) {
 	int ts=0, aa=0;
 	dp[u][0]=0;
@@ -26,7 +26,7 @@ int dfs(int u=0, int p=-1) {
 	adj[u].clear();
 	return ts+1;
 }
- 
+
 int main() {
 	ifstream cin("tricolor.in");
 	ofstream cout("tricolor.out");

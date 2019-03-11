@@ -186,7 +186,7 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/university-codesprint-4/drawing-rectangles.java
 * Point add updates, range sum queries, persistent
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(2).cpp
-* Range add updates, range max queries
+* Range add updates, total max queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/InfoArena/Regat.cpp
 * Range max updates, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IZHO/13-Trading.cpp

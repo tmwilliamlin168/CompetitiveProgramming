@@ -2,6 +2,7 @@
 	- Any string chosen will have a period of n*m, so k will be at most n*m
 	- For each of the 8 directions, we can decompose the grid into at most max(n, m) repeating strips
 	- We can calculate the hashes in O(n*m) for each strip
+	- Use of memcpy to barely pass TL
 */
 
 #include <bits/stdc++.h>

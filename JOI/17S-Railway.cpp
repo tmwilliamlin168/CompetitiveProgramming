@@ -5,7 +5,7 @@
 	- Using the precalculated info, we can find the minimum cost to a station with at least an arbitrary level on the left and right in O(sqrt(n)) time
 	- For each query (a, b)
 		- Either the route goes through the maximum leveled station in [a, b]
-		- Or the maximum leveled station in [a, b] is skipped by having a2 < a and b2 > b such that the levels of stations a2 and b2 exceed all other levels in [a, b]
+		- Or the maximum leveled station in [a, b] is skipped by going through a2 < a and b2 > b such that the levels of stations a2 and b2 exceed all other levels in [a, b]
 */
 
 #include <bits/stdc++.h>

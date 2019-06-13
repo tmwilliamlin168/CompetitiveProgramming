@@ -47,10 +47,10 @@ int main() {
 			rn1[i]=rn1[rn1[i]];
 		while(rn2[i]<n&&l[0][rn2[i]]<l[0][i])
 			rn2[i]=rn2[rn2[i]];
-		if(rn2[i]<n)
+		if(rn2[i]<n) {
 			rd[i]=rd[rn2[i]]+1;
-		if(l[0][i]<k-1)
 			nxts[i]={{{ld[i]-ld[ln1[i]], ln1[i]}, {rd[i]-rd[rn1[i]], rn1[i]}}};
+		}
 	}
 	auto cmb=[](d2 a, d2 b, d2 c) {
 		if(!b[1][0])

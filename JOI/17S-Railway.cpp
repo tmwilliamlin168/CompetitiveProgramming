@@ -22,13 +22,10 @@ d2 nxts[mxN], nxtb[(mxN-1)/BS+1][mxN];
 int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
-
+ 
 	cin >> n >> k >> q;
-	for(int i=0; i<n; ++i) {
+	for(int i=0; i<n; ++i)
 		cin >> l[0][i], --l[0][i];
-		p[i]={l[0][i], i};
-	}
-	sort(p, p+n);
 	for(int i=1; i<17; ++i)
 		for(int j=0; j<=n-(1<<i); ++j)
 			l[i][j]=max(l[i-1][j], l[i-1][j+(1<<i-1)]);
@@ -51,7 +48,9 @@ int main() {
 			rd[i]=rd[rn2[i]]+1;
 			nxts[i]={{{ld[i]-ld[ln1[i]], ln1[i]}, {rd[i]-rd[rn1[i]], rn1[i]}}};
 		}
+		p[i]={l[0][i], i};
 	}
+	sort(p, p+n);
 	auto cmb=[](d2 a, d2 b, d2 c) {
 		if(!b[1][0])
 			b[1][0]=n;

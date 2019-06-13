@@ -85,7 +85,7 @@ int main() {
 		int ans=da[1][0]+db[0][0]+ld[db[0][1]]-ld[da[1][1]];
 		if(m+1<k) {
 			da=qry(a, m+1), db=qry(b, m+1);
-			ans=min(da[0][0]+db[1][0]+(l[0][db[1][1]]<l[0][da[0][1]]?ld[db[1][1]]-ld[da[0][1]]:rd[da[0][1]]-rd[db[1][1]]), ans);
+			ans=min(da[0][0]+db[1][0]+1, ans);
 		}
 		cout << ans-1 << "\n";
 	}

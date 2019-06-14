@@ -1,3 +1,20 @@
+/*
+	- Let S be the set of all subtrees with sizes < 2^8 which are not contained by other subtrees
+	- If a node has multiple children in S, we also try to merge the subtrees, as long as the sizes of the final subtrees < 2^8
+	- S has < around 2^11 subtrees
+		- If a node has multiple children such that no pair is mergeable, it means that the average size of those children >= 2^8/2
+		- At most n/(2^8/2) of those subtrees
+	- We basically get 28 bits, we actually only need 27
+	- 1 bit to identify if a node is in S
+	- S nodes
+		- 11 bits for the ID of the subtree
+		- 15 bits for the range of nodes covered
+	- Other nodes
+		- 5 bits for the depth
+		- 21 bits for the range of subtrees covered in S
+	- In general, log_2(16dn^4)/3 bits are required
+*/
+
 #include "Encoder.h"
 #include <bits/stdc++.h>
 using namespace std;

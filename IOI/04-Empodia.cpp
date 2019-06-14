@@ -1,5 +1,18 @@
 /*
 	- Note that maximum m is changed to 2e6 on yandex
+	- For each i, find the minimum r[i] > i such that a[j] < a[i]
+	- For each i, find the maximum l[i] < i such that a[j] > a[i]
+	- Necessary and sufficient condition for a framed interval [l, r]
+		- min(a[l, r]) = a[l], or r[l] > r
+		- max(a[l, r]) = a[r], or l[r] < l
+		- a[l]-l = a[r]-r
+	- Group indexes by a[i]-i
+	- Iterate through indexes i in each group from left to right
+		- Maintain a stack s such that s[j] < s[j+1] and r[s[j]] > r[s[j+1]]
+		- We try to match the topmost element of s with i
+			- If r[s[j]] < i, pop s[j]
+			- If l[i] > s[j], then all elements in the stack will not work, and we can quit
+		- Lastly, we add i to the stack (while making sure it is monotonic)
 */
 
 #include <bits/stdc++.h>

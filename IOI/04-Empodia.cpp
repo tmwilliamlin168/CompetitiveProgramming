@@ -12,7 +12,9 @@
 		- We try to match the topmost element of s with i
 			- If r[s[j]] < i, pop s[j]
 			- If l[i] > s[j], then all elements in the stack will not work, and we can quit
+			- Otherwise, [s[j], i] is a framed interval
 		- Lastly, we add i to the stack (while making sure it is monotonic)
+	- We now have at most n candidate empodia, just find which ones don't contain other ones
 */
 
 #include <bits/stdc++.h>

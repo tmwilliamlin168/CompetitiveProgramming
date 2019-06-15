@@ -1,20 +1,19 @@
 /*
-	- Our goal
-		- We split the belt into 200 blocks, each with 100 cells
-		- Odd blocks will contain the boxes
-		- In order to handle insertions, we will allow the blocks of boxes to shift left/right, but they can always have at most 100 boxes
-			- In this example, at most 5 boxes per block
-			- xxxxx.....xxxxx.....xxxx......
-			- Insertion of X in first block
-			- xxxXxx....xxxxx.....xxxx......
-			- xxxXx....xxxxxx.....xxxx......
-			- xxxXx....xxxxx.....xxxxx......
-		- We will reset the position of every block of boxes every 100 insertions so that blocks won't shift into each other
-			- This is enough since blocks can only get closer by 1 cell per insertion
-		- Moves per turn:
-			- 100 (resetting one block)
-			- 50 (inserting into a block, note that we have to move at most half of the block)
-			- 50 (shifting the increase in block size to smaller blocks, note that we have to shift through at most half the blocks)
+	- We split the belt into 200 blocks, each with 100 cells
+	- Odd blocks will contain the boxes
+	- In order to handle insertions, we will allow the blocks of boxes to shift left/right, but they can always have at most 100 boxes
+		- In this example, at most 5 boxes per block
+		- xxxxx.....xxxxx.....xxxx......
+		- Insertion of X in first block
+		- xxxXxx....xxxxx.....xxxx......
+		- xxxXx....xxxxxx.....xxxx......
+		- xxxXx....xxxxx.....xxxxx......
+	- We will reset the position of every block of boxes every 100 insertions so that blocks won't shift into each other
+		- This is enough since blocks can only get closer by 1 cell per insertion
+	- Moves per turn:
+		- 100 (resetting one block)
+		- 50 (inserting into a block, note that we have to move at most half of the block)
+		- 50 (shifting the increase in block size to smaller blocks, note that we have to shift through at most half the blocks)
 */
 
 #include <bits/stdc++.h>

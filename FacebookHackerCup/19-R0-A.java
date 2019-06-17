@@ -12,7 +12,7 @@ public class A {
 			int x=0;
 			for(char c : s)
 				x+=c=='B'?1:0;
-			System.out.println("Case #"+_+": "+(x<s.length-1&&2*x>=s.length-1?"Y":"N"));
+			out.println("Case #"+_+": "+(x<s.length-1&&2*x>=s.length-1?"Y":"N"));
 		}
 		out.close();
 	}

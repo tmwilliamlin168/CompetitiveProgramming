@@ -1,3 +1,12 @@
+/*
+	- The problem basically tells us that the graph is a cactus
+	- Note that the game will end at the starting spot
+	- dp1[u] = whether the player at node u can force a sequence of moves in the subtree to go back to node u and start his turn
+	- dp2[u] = whether the player at node u can force a sequence of moves in the subtree to go back to node u and start the opponent's turn
+	- We can do a second dfs to propagate the dp down from the root
+	- In order to avoid quadratic complexity, we use a sparse table to calculate the dp within a BCC in O(logn) time
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

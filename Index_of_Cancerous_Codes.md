@@ -111,6 +111,7 @@ Knuth Optimization
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/PKU/1738.cpp
 
 Link/cut tree
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1172E.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/pwshpc-online-round/pwsh-tokens.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/SPOJ/DYNACON1.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/SPOJ/DYNALCA.cpp

@@ -60,6 +60,7 @@ Convex Hull Trick
 * Pointer walk
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/10-Commando.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Sequence.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CEOI/04-Two.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0436F.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0536C.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1067D.cpp

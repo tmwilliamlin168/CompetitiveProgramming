@@ -193,7 +193,7 @@ Segment Tree
 * Range add updates, total max queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/InfoArena/Regat.cpp
 * Range max updates, iterative
-	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IZHO/13-Trading.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IZhO/13-Trading.cpp
 * Range set and add updates, point queries, persistent xor mergeable
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/13O-Synchronization(1).cpp
 * Point set updates, maximum subarray sum queries

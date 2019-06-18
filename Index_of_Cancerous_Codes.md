@@ -225,6 +225,7 @@ Splay Tree
 
 Strongly Connected Components
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/09-ATM.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/BkOI/12-FanGroups.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0403C.java
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1065F.cpp
 

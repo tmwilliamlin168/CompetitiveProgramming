@@ -155,6 +155,8 @@ Prefix Function
 Segment Tree
 * Point set updates, range sum queries, range max queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/12-Dispatching.cpp
+* Point increment updates, range sum queries, persistent
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/17-Rainbow.cpp
 * Range max updates, point queries, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/18-New_Home.cpp
 * Range add updates, range max queries

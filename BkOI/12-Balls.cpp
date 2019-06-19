@@ -1,3 +1,8 @@
+/*
+	- The change in score for a right obstacle (l, r) is -s[l-1]+l*(-a[r])+r*a[r]+s[r-1]
+	- We can use CHT with binary search to find the max for each r
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

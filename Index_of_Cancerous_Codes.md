@@ -54,6 +54,9 @@ Centroid Decomposition
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/13O-Synchronization(1).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1718_3P/Newbarn(1).java
 
+Chinese Remainder Theorem
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/G102056C.cpp
+
 Convex Hull
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1819_1P/Balance.cpp
 

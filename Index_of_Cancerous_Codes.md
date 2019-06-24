@@ -189,6 +189,8 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1044F.cpp
 * Range add updates, total minimum queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1091E.cpp
+* Range add updates, range minimum queries
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1179C.cpp
 * Range add updates, range min queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/FacebookHackerCup/18-R2-D.java
 * Point set updates, range min queries, iterative

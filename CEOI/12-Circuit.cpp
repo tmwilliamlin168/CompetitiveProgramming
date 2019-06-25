@@ -1,4 +1,5 @@
 /*
+	- Note that problem statement is wrong, tests actually give n <= 2e5
 	- Find the points with the smallest and greatest angles, break ties by choosing the ones with smaller coordinates
 	- Traverse the lower part of the polygon while maintaining a stack of candidate answers
 */

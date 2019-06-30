@@ -146,6 +146,9 @@ Minimum Cost Flow
 Mo's Algorithm
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1000F.cpp
 
+Modular Inverse
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1172C.cpp
+
 Number Theoretic Transform
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1096G.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1096G.java

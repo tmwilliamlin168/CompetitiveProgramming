@@ -154,6 +154,9 @@ Number Theoretic Transform
 Parallel Binary Search
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(1).cpp
 
+Point Convex Polygon Tangent
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/COI/16-Relay.cpp
+
 Prefix Function
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/MKSTR.cpp
 

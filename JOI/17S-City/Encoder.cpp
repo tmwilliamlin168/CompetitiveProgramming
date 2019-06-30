@@ -13,6 +13,8 @@
 		- 5 bits for the depth
 		- 21 bits for the range of subtrees covered in S
 	- In general, log_2(16dn^4)/3 bits are required
+	- Actually, 2 weeks later, I found that this solution is actually wrong (S can have like d*2^11 subtrees)
+	- But the limit on d makes this work well, and this solution is guaranteed to work with 32 bits (or even 31)
 */
 
 #include "Encoder.h"

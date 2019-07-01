@@ -1,3 +1,10 @@
+/*
+	- Binary search by answer
+	- We can move the polygon inward by r and check that the maximum distance is at least 2*r
+	- The first part can be done with half-plane intersection
+	- The second part can be done with rotating calipers
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

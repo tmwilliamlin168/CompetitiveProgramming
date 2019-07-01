@@ -65,6 +65,7 @@ Convex Hull Trick
 * Pointer walk
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/10-Commando.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Sequence.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/BkOI/11-2Circles.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CEOI/04-Two.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0436F.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0536C.cpp
@@ -108,6 +109,9 @@ Gaussian Elimination
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0832E.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0938G.cpp
 
+Half-Plane Intersection
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/BkOI/11-2Circles.cpp
+
 Heavy Light Decomposition
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/ADITREE.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1007D.cpp
@@ -118,7 +122,7 @@ Heavy Light Decomposition
 Knuth Optimization
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/PKU/1738.cpp
 
-Link/cut tree
+Link/Cut Tree
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1172E.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/pwshpc-online-round/pwsh-tokens.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/SPOJ/DYNACON1.cpp

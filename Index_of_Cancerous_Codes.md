@@ -9,6 +9,7 @@
 
 Aho-Corasick
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/COCI/15-Divljak.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/Kattis/open/stringmultimatching.cpp
 
 Aliens Trick
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CSAcademy/82-E.java

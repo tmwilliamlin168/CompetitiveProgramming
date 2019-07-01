@@ -142,6 +142,7 @@ Maximum Flow
 
 Minimum Cost Flow
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1061E.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1187G.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/cargo-delivery.cpp
 
 Mo's Algorithm

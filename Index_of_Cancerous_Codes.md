@@ -155,6 +155,7 @@ Mo's Algorithm
 
 Modular Inverse
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1172C.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CSAcademy/junior-challenge-2017-day-1-borland.cpp
 
 Number Theoretic Transform
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1096G.cpp

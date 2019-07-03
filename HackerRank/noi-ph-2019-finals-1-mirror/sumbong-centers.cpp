@@ -73,7 +73,7 @@ vector<ll> rec(int rt) {
 			mu=ai;
 		ds+=adj[ai].size();
 	}
-	if(k<=0||ds>2*k*adj[mu].size())
+	if(ds>2*k*(int)adj[mu].size())
 		return {0};
 	ab(mu);
 	vector<int> b=a;

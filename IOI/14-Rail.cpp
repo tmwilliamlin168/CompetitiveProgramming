@@ -1,3 +1,11 @@
+/*
+	- Query all distances from station 0, the station with minimum distance must be the next D station
+	- Process all stations in increasing order by distance from station 0
+		- Maintain leftmost C station and rightmost D station
+		- Query the new station with the leftmost and rightmost stations
+		- We can figure out the station type of the new station by doing some simple case analysis
+*/
+
 #include "rail.h"
 #include <bits/stdc++.h>
 using namespace std;

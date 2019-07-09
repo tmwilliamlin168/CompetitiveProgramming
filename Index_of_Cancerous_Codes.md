@@ -218,6 +218,8 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(2).cpp
 * Range add updates, total max queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/InfoArena/Regat.cpp
+* Range add updates, range max queries
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IOI/09-Archery.cpp
 * Range max updates, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IZhO/13-Trading.cpp
 * Range set and add updates, point queries, persistent xor mergeable

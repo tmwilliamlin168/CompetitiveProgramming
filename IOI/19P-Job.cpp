@@ -1,3 +1,11 @@
+/*
+	- If there were no tree requirement, we would process jobs starting from small d[i]/u[i]
+	- We iterate through nodes starting from the leaves
+	- If a node has greater d[i]/u[i] than any one of its children, merge it with the child with the smallest d[i]/u[i]
+	- In the end we end up with a tree such that all parents have smaller d[i]/u[i] than their parent
+	- We can just ignore the tree requirement
+*/
+
 #include "job.h"
 #include <bits/stdc++.h>
 using namespace std;

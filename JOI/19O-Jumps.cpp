@@ -1,3 +1,17 @@
+/*
+	- Optimal triplet (a, b, c) must satisfy max(A[a+1..b-1]) < min(a, b)
+		- 3 types of pairs (a, b) to consider
+			- (i, i+1)
+			- (i, r[i]) where r[i] is the next element not smaller than A[i]
+			- (l[i], i) where l[i] is the previous element not smaller than A[i]
+		- Total of O(n) pairs that we need to test
+	- Do a sweep from left to right
+		- When i first reaches 2*b-a for some pair, set B[a] to max(B[a], A[a]+A[b])
+		- Next, set ans[j] to max(ans[j], B[j]+A[i]) for all j
+		- Finally, answer queries with right end at i by querying max(ans[l..r])
+	- The operations can be performed efficiently with a segment tree
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

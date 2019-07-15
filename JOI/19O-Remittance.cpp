@@ -16,7 +16,7 @@ int main() {
 		for(int i=0; i<n; ++i) {
 			if(a[i]<=b[i]||a[i]<2)
 				continue;
-			int c=max((a[i]-b[i])/2, 1);
+			int c=(a[i]-b[i]+1)/2;
 			a[i]-=c*2;
 			a[(i+1)%n]+=c;
 			ch|=c;

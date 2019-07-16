@@ -2,7 +2,7 @@
 using namespace std;
 
 const int mxN=100, M=998244353;
-int n, dp[mxN+1][32][32][10][10][2], ans, fa[10], fb[10];
+int n, dp[mxN+1][32][32][9][9][2], ans, fa[10], fb[10];
 string s;
 
 int main() {
@@ -35,9 +35,9 @@ int main() {
 			dp[0][0][0][0][0][1]=1;
 			for(int j=0; j<n; ++j) {
 				for(int d=0; d<=9; ++d) {
-					for(int c1=0; c1<=9; ++c1) {
+					for(int c1=0; c1<i1; ++c1) {
 						int nd1=(d*i1+c1)%10, nc1=(d*i1+c1)/10;
-						for(int c2=0; c2<=9; ++c2) {
+						for(int c2=0; c2<i2; ++c2) {
 							int nd2=(d*i2+c2)%10, nc2=(d*i2+c2)/10;
 							for(int b1=0; b1<1<<fps; ++b1) {
 								int nb1=b1|(~fa[nd1]?1<<fa[nd1]:0);

@@ -1,5 +1,13 @@
 /*
 	- https://www.ioi-jp.org/camp/2018/2018-sp-tasks/day2/asceticism-review.pdf
+	- Let's focus on the problem of finding the probability that any permutation has k <= x
+	- There is a bijection between a permutation and an array of real numbers in [0, 1) since only relative order matters
+	- If we make the array increasing by adding the minimum number of 1s, we are also finding the probability that the max element in this array <= k
+	- We know how to count the probability that an array is increasing and has max value <= k
+		- k^n/n!
+	- But not all arrays can be reduced to our original array with elements in [0, 1)
+	- We need to make sure adjacent elements have difference < 1 and first element < 1
+	- We can use PIE to take care of these restrictions
 */
 
 #include <bits/stdc++.h>

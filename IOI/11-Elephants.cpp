@@ -1,3 +1,9 @@
+/*
+	- Use sqrt decomposition
+	- For each block, maintain elephants in the block
+	- For each elephant, maintain the minimum number of segments when using greedy covering to get outside the block, and also the position of the last segment
+*/
+
 #include "elephants.h"
 #include <bits/stdc++.h>
 using namespace std;

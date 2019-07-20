@@ -63,8 +63,6 @@ int main() {
 	cin >> n >> m;
 	for(int i=0; i<n; ++i)
 		cin >> a[i][0] >> a[i][1];
-	sort(a, a+n);
-	n=unique(a, a+n)-a;
 	for(int i=0; i<n; ++i) {
 		d[i]=hypot(a[i][0], a[i][1]);
 		rb=min(d[i], rb);

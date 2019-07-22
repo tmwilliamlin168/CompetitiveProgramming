@@ -11,7 +11,7 @@ mat matMul(mat a, mat b, ll m) {
 	mat r(a.size(), vector<ll>(b[0].size()));
 	for(int i=0; i<a.size(); ++i) {
 		for(int k=0; k<a[0].size(); ++k) {
-			for(int j=0; j<b.size(); ++j) {
+			for(int j=0; j<b[0].size(); ++j) {
 				r[i][j]+=a[i][k]*b[k][j];
 				if(r[i][j]>=m*m)
 					r[i][j]-=m*m;

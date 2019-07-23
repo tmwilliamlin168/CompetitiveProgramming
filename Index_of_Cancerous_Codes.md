@@ -132,8 +132,9 @@ Manacher
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1080E.cpp
 
-Matrix Exponentiation
+Matrix Multiplication
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1182E.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1197F.cpp
 
 Matroid Intersection
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/LiveArchive/5820.cpp

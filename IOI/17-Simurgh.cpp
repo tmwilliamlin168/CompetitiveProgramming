@@ -92,7 +92,7 @@ void dfs2(int u=0, int pe=-1) {
 	}
 	if(v1.size()) {
 		iota(p, p+n, 0);
-		vector<int> s1;
+		vector<int> s1, w(eu.size(), 1), s2=v1;
 		for(int i=0; i<v1.size(); ++i) {
 			s1.push_back(t[eu[v1[i]]^ev[v1[i]]^u]);
 			join(eu[s1.back()], ev[s1.back()]);
@@ -101,22 +101,19 @@ void dfs2(int u=0, int pe=-1) {
 			s1.push_back(e);
 			join(eu[e], ev[e]);
 		}
-		vector<int> w(eu.size(), 1);
 		for(int e : v1) {
 			w[e]=0;
 			w[t[eu[e]^ev[e]^u]]=0;
 		}
 		fst(w, s1);
-		vector<int> s2=v1;
 		s2.insert(s2.end(), s1.begin()+v1.size(), s1.end());
 		dc(s1, v1, r, 0, v1.size()-1, count_common_roads(s1), count_common_roads(s2));
 	}
 	if(v2.size()) {
-		vector<int> w(eu.size(), 1);
+		vector<int> w(eu.size(), 1), s;
 		for(int e : adj[u])
 			w[e]=0;
 		iota(p, p+n, 0);
-		vector<int> s;
 		fst(w, s);
 		for(int e : r)
 			if(join(eu[e], ev[e]))
@@ -130,9 +127,8 @@ void dfs2(int u=0, int pe=-1) {
 		sort(v2.begin(), v2.end(), [](const int &i, const int &j) {
 			return b[i]<b[j];
 		});
-		for(int i=0, j=0; i<v2.size(); ) {
+		for(int i=0, j=0, o; i<v2.size(); ) {
 			for(; j<v2.size()&&b[v2[j]]==b[v2[i]]; ++j);
-			int o;
 			for(int e : s)
 				if(b[e]==b[v2[i]]&&(eu[e]==u||ev[e]==u))
 					o=e;

@@ -155,6 +155,9 @@ Minimum Cost Flow
 Mo's Algorithm
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1000F.cpp
 
+Mobius Inversion
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1205E.cpp
+
 Modular Inverse
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1172C.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CSAcademy/junior-challenge-2017-day-1-borland.cpp

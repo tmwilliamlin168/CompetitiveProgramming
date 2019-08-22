@@ -1,3 +1,7 @@
+/*
+	- https://code.google.com/codejam/contest/32008/dashboard#s=a&a=3
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

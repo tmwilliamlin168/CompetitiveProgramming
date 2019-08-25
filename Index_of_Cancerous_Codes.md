@@ -244,6 +244,9 @@ Segment Tree
 * Range add updates, range max queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1718_1P/Greedy.java
 
+Segmented Sieve
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/GoogleKickStart/19E-C.cpp
+
 Sparse Table
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1000G.cpp

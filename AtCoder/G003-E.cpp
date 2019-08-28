@@ -1,3 +1,12 @@
+/*
+	- Consider the operations in reverse order
+		- We start out with array of 1s, and we consider all i such that i >= q and we move them to a[i%q]
+	- We can compress with array by storing differences
+	- If we use a map and don't go through the elements i < q, each element will only be considered O(logq) times
+		- If x >= y, x%y < x/2
+	- O(qlogq+n)
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -269,6 +269,7 @@ Strongly Connected Components
 Suffix
 * Array
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/AtCoder/G037-E.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1718_1P/Standingout.cpp
 * Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1037H.cpp

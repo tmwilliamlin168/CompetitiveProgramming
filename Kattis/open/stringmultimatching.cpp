@@ -6,7 +6,7 @@ int n;
 string s;
 
 struct autoac {
-	int sl[mxN+1], ol[mxN+1], sz=1, c[mxN+1][256], d[mxN+1][256], qu[mxN+1];
+	int sl[mxN+1], ol[mxN+1], sz=1, c[mxN+1][256], d[mxN+1][256];
 	vector<int> oc[mxN];
 	vector<array<int, 2>> no[mxN+1];
 	void add(string s, int i) {
@@ -20,20 +20,17 @@ struct autoac {
 		no[u].push_back({i, s.size()});
 	}
 	void ac() {
-		sl[0]=-1;
-		int qt=0;
-		qu[qt++]=0;
-		for(int qh=0; qh<qt; ++qh) {
-			int u=qu[qh];
+		for(queue<int> q({0}); q.size(); q.pop()) {
+			int u=q.front();
+			if(!ol[u])
+				ol[u]=ol[sl[u]];
 			for(int a=0; a<256; ++a) {
 				int v=c[u][a], w=sl[u];
-				d[u][a]=v?v:(u?d[w][a]:0);
-				if(!v)
-					continue;
-				sl[v]=u?d[w][a]:0;
-				if(!ol[v])
-					ol[v]=ol[sl[v]];
-				qu[qt++]=v;
+				if(v) {
+					sl[v]=d[w][a];
+					q.push(v);
+				}
+				d[u][a]=v?v:d[w][a];
 			}
 		}
 	}
@@ -70,7 +67,7 @@ int main() {
 		memset(ac.sl, 0, 4*ac.sz);
 		memset(ac.ol, 0, 4*ac.sz);
 		memset(ac.c, 0, sizeof(ac.c[0])*ac.sz);
-		memset(ac.d, 0, sizeof(ac.d[0])*ac.sz);
+		memset(ac.d, 0, sizeof(ac.d[0]));
 		for(int i=0; i<ac.sz; ++i)
 			ac.no[i].clear();
 		ac.sz=1;

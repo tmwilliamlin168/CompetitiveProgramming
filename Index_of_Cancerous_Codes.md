@@ -116,6 +116,7 @@ Half-Plane Intersection
 Heavy Light Decomposition
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/ADITREE.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1007D.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1254D.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/G102052E.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/18S-Construction.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_2G/Grassplant(2).java

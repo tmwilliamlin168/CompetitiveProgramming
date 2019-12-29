@@ -52,6 +52,7 @@ Bridges
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/noi-ph-2019/super-rangers.java
 
 Centroid Decomposition
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/TREEQ1.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(1).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(2).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/13O-Synchronization(1).cpp
@@ -203,6 +204,8 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/KCOMPRES.cpp
 * Range max updates, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/TBGRAPH.cpp
+* Range add updates, range sum queries
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/TREEQ1.cpp
 * Max subarray sum in subarray queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0150C.java
 * Add interval updates, length of union of intervals queries

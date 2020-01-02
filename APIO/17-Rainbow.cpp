@@ -84,5 +84,5 @@ int colour(int ar, int ac, int br, int bc) {
 	int v=2*(br-ar+bc-ac+2)+sv.qry(ar+1, br, ac+1, bc);
 	int c=!sv.qry(ar+1, br, ac+1, bc)||ser.qry(ar+1, br, ac, bc)-ser.qry(ar+1, br, ac+1, bc-1)||sec.qry(ar, br, ac+1, bc)-sec.qry(ar+1, br-1, ac+1, bc)?1:2;
 	int s=ss.qry(ar, br, ac, bc);
-    return e-v+c-s;
+	return e-v+c-s;
 }

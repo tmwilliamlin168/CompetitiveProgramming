@@ -2,6 +2,7 @@
 	- Binary search by answer
 	- Let dp[u][x] be the minimum length of a path coming back to u from a leaf if the length of the path from u to the first leaf is x
 	- We can use merge-small-to-large to achieve a good time complexity
+	- I have an extra log than the editorial solution because I used binary search instead of two pointers
 */
 
 #include <bits/stdc++.h>

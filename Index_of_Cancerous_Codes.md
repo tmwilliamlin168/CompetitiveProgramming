@@ -52,6 +52,7 @@ Bridges
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/noi-ph-2019/super-rangers.java
 
 Centroid Decomposition
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/CNTIT.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/TREEQ1.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(1).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(2).cpp

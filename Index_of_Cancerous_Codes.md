@@ -62,6 +62,9 @@ Centroid Decomposition
 Chinese Remainder Theorem
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/G102056C.cpp
 
+Closest Pair of Points
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/PAPER.cpp
+
 Convex Hull
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1819_1P/Balance.cpp
 

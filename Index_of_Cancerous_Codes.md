@@ -155,6 +155,9 @@ Maximum Flow
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/FacebookHackerCup/19-1-C.java
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1112_1G/Steeple(2).java
 
+Minimum Arborescence
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0240E.cpp
+
 Minimum Cost Flow
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1061E.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1187G.cpp

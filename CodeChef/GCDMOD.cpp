@@ -28,7 +28,7 @@ inline void solve() {
 	cin >> a >> b >> n;
 	m=a==b?M:a-b;
 	s=(exp(a, n, m)+exp(b, n, m))%m;
-	cout << gcd(a-b, s) << "\n";
+	cout << gcd(a-b, s)%M << "\n";
 }
 
 int main() {

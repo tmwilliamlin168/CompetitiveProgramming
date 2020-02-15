@@ -54,6 +54,7 @@ Bridges
 Centroid Decomposition
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/CNTIT.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/TREEQ1.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1303G.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(1).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/HackerRank/w38/neighborhood-queries(2).cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/13O-Synchronization(1).cpp
@@ -88,6 +89,7 @@ Convex Hull Trick
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/0631E.cpp
 * Dynamic
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CEOI/17-Building.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeForces/1303G.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/17S-Coach.cpp
 * Square root
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/POI/18-Lightning_Conductor.cpp

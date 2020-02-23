@@ -27,10 +27,9 @@ public:
 				++j;
 			ans+=p[j];
 			la=p[j];
-		}
-		if(k>1)
-			ans+=(ll)la*(k-2)*n;
+		}	
 		if(k>1) {
+			ans+=(ll)la*(k-2)*n;
 			for(int i=n-1; ~i; --i) {
 				int j=0;
 				while(p[j]>i)

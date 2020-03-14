@@ -141,6 +141,7 @@ Link/Cut Tree
 Manacher
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/14-Palindrome.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/Codeforces/1080E.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CSAcademy/fii-code-2020-round-3-D.cpp
 
 Matrix Multiplication
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/Codeforces/1182E.cpp

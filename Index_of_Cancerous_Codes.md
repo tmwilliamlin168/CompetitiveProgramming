@@ -33,7 +33,7 @@ Binary Lifting
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/USACO/Contests/1516_1P/Maxflow.java
 
 Bipartite Matching
-* Basic
+* Kuhn
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/AtCoder/G037-D.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/BkOI/18-Minmaxtree.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/KPERFMAT.cpp

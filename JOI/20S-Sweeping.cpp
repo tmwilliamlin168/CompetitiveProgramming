@@ -90,6 +90,11 @@ struct node {
 		for(int i=0; i<m; ++i)
 			sta.push_back(qs[i][2]);
 		rq.bld(sta, rank);
+		for(int i=0; i<m; ++i)
+			vector<int>().swap(pr[i]);
+		vector<vector<int>>().swap(pr);
+		vector<int>().swap(sta);
+		vector<int>().swap(rank);
 	}
 	void app(ar<int, 2> &a) {
 		int l=lower_bound(qs.begin(), qs.end(), ar<int, 3>{a[0]})-qs.begin(), r=lower_bound(qs.begin(), qs.end(), ar<int, 3>{n-a[1]+1})-qs.begin()-1;
@@ -146,17 +151,12 @@ int main() {
 		} else if(qt==2||qt==3) {
 			int l;
 			cin >> l;
-			int u=no+(1<<20);
-			while(u) {
+			for(int u=no+(1<<20); u; u/=2)
 				st[u].q.push_back({qt&1?l:n-l, qt-2, st[u].q.size()});
-				u/=2;
-			}
-			u=no+(1<<20);
-			while(1) {
+			for(int u=no+(1<<20); ; u/=2) {
 				st[u].bld();
 				if((u+1)&1)
 					break;
-				u/=2;
 			}
 			++no;
 		} else if(qt==4) {

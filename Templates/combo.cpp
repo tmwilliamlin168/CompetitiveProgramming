@@ -20,7 +20,7 @@ Mnt nck2(int n, int k) {
 		r*=n-i;
 	return r;
 }
-vt<Mnt> gp(int n, Mnt b) {
+vt<Mnt> gp(Mnt b, int n) {
 	vt<Mnt> v(n+1, 1);
 	FOR(n)
 		v[i+1]=v[i]*b;

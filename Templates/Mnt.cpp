@@ -1,5 +1,5 @@
 ll inv(ll a, ll m) {
-	return (a%=m)>2?(1-m*inv(m, a))/a+m:1;
+	return (a%=m)>1?(1-m*inv(m, a))/a+m:1;
 }
 struct Mnt {
 	int x;
@@ -47,7 +47,7 @@ struct Mnt {
 	Mnt& operator/=(const Mnt& a) {
 		return (*this)*=inv(a.x, M);
 	}
-	friend Mnt pow(Mnt a, ll p) {
+	friend Mnt pm(Mnt a, ll p) {
 		Mnt r=1;
 		for (; p; p/=2, a*=a)
 			if(p&1)

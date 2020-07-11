@@ -1,7 +1,7 @@
 ll inv(ll a, ll m) {
 	return (a%=m)>2?(1-m*inv(m, a))/a+m:1;
 }
-template<int M> struct Mnt {
+struct Mnt {
 	int x;
 	Mnt() {
 		x=0;

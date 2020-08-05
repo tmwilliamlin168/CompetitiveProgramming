@@ -64,8 +64,8 @@ struct {
 	}
 	template<class T> void bld(vt<T> a) {
 		n=sz(a);
-		vti(st, {}, 4*n);
-		vti(lz, {}, 4*n);
+		vti(st, d1{}, 4*n);
+		vti(lz, d2{}, 4*n);
 		bld(a, 1, 0, n-1);
 	}
 	void app(int i, d2 &x) {

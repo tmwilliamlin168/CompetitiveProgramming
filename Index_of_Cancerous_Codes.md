@@ -196,6 +196,9 @@ Point Convex Polygon Tangent
 Prefix Function
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/MKSTR.cpp
 
+ST-Ordering
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IOI/19-Split.cpp
+
 Segment Tree
 * Point set updates, range sum queries, range max queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/APIO/12-Dispatching.cpp

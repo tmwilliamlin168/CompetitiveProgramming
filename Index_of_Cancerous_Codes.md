@@ -91,6 +91,7 @@ Convex Hull Trick
 * Dynamic
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CEOI/17-Building.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/Codeforces/1303G.cpp
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/FacebookHackerCup/20-2-D.cpp
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/JOI/17S-Coach.cpp
 * Square root
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/POI/18-Lightning_Conductor.cpp

@@ -292,6 +292,7 @@ Strongly Connected Components
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/BkOI/12-FanGroups.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/Codeforces/0403C.java
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/Codeforces/1065F.cpp
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IOI/17-Books.cpp
 
 Suffix
 * Array

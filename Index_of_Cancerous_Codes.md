@@ -253,6 +253,8 @@ Segment Tree
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IOI/08-Pyramid.cpp
 * Range add updates, range max queries
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IOI/09-Archery.cpp
+* Range add updates, range min and min count queries
+	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IOI/18-Seats.cpp
 * Range max updates, iterative
 	* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/IZhO/13-Trading.cpp
 * Range set and add updates, point queries, persistent xor mergeable

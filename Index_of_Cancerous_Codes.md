@@ -124,6 +124,7 @@ Half-Plane Intersection
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/BkOI/11-2Circles.cpp
 
 Heavy Light Decomposition
+* https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CEOI/20-Cleaning.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/CodeChef/ADITREE.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/Codeforces/1007D.cpp
 * https://github.com/tmwilliamlin168/CompetitiveProgramming/blob/master/Codeforces/1254D.cpp

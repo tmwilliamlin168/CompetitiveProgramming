@@ -1,10 +1,10 @@
 /*
 	- Note that maximum m is changed to 2e6 on yandex
-	- For each i, find the minimum r[i] > i such that a[j] < a[i]
-	- For each i, find the maximum l[i] < i such that a[j] > a[i]
+	- For each i, find the minimum r[i] > i such that a[r[i]] < a[i]
+	- For each i, find the maximum l[i] < i such that a[l[i]] > a[i]
 	- Necessary and sufficient condition for a framed interval [l, r]
-		- min(a[l, r]) = a[l], or r[l] > r
-		- max(a[l, r]) = a[r], or l[r] < l
+		- min(a[l, r]) = a[l], i.e. r[l] > r
+		- max(a[l, r]) = a[r], i.e. l[r] < l
 		- a[l]-l = a[r]-r
 	- Group indexes by a[i]-i
 	- Iterate through indexes i in each group from left to right
